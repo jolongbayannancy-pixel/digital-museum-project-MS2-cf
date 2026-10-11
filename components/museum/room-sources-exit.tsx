@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { galleries, ILLUSTRATIVE_CREDIT, type Gallery } from '@/lib/galleries'
+import { galleries, type Gallery } from '@/lib/galleries'
 import type { RoomTheme } from '@/lib/room-themes'
 import { cn } from '@/lib/utils'
 
@@ -23,9 +23,6 @@ export function RoomSourcesExit({ gallery, theme }: { gallery: Gallery; theme: R
               </li>
             ))}
           </ul>
-          <p className={cn('mt-6 border-t border-gold/30 pt-4 text-xs leading-relaxed', theme.muted)}>
-            Image credit: {ILLUSTRATIVE_CREDIT}
-          </p>
         </div>
       </section>
 

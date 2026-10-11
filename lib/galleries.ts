@@ -46,8 +46,7 @@ export type Gallery = {
   sources: Source[]
 }
 
-export const ILLUSTRATIVE_CREDIT =
-  'Illustrative recreation — AI-generated image created for BALIK-TANAW. Not an archival photograph.'
+
 
 export const galleries: Gallery[] = [
   {

@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ILLUSTRATIVE_CREDIT, type Artifact } from '@/lib/galleries'
+import type { Artifact } from '@/lib/galleries'
 import type { RoomTheme } from '@/lib/room-themes'
 import { cn } from '@/lib/utils'
 
@@ -52,9 +52,6 @@ export function ArtifactExhibit({ artifact, index, theme }: ArtifactExhibitProps
         <p className="text-sm leading-relaxed">{artifact.description}</p>
         <p lang="fil" className="mt-3 text-sm italic leading-relaxed text-muted-foreground">
           {artifact.descriptionTaglish}
-        </p>
-        <p className="mt-5 border-t border-border pt-3 text-[0.7rem] leading-relaxed text-muted-foreground">
-          {ILLUSTRATIVE_CREDIT}
         </p>
       </div>
     </article>
