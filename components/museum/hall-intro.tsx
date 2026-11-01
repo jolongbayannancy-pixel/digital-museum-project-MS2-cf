@@ -29,8 +29,8 @@ export function HallIntro() {
       <div className="relative z-10 mx-auto -mt-24 max-w-5xl px-4 md:-mt-28 md:px-8">
         <div className="border border-gold/50 bg-card p-6 shadow-[0_20px_50px_rgba(42,29,20,0.25)] md:p-10">
           <div className="mx-auto mb-6 h-px w-24 bg-gold" aria-hidden="true" />
-          <div className="grid gap-8 md:grid-cols-2 md:gap-12">
-            <article lang="en">
+          <div className="grid md:grid-cols-2 md:divide-x md:divide-border">
+            <article lang="en" className='mt-8 md:mt-0 md:pr-8'>
               <h2 className="text-xs font-semibold uppercase tracking-[0.3em] text-gold">English</h2>
               <p className="mt-3 font-serif text-lg leading-relaxed text-foreground md:text-xl">
                 Welcome to <strong className="font-semibold">BALIK-TANAW: Philippine Popular Culture Museum (2000–2010)</strong>.
@@ -41,7 +41,7 @@ export function HallIntro() {
                 also why these cultural experiences still matter today.
               </p>
             </article>
-            <article lang="fil" className="md:border-l md:border-border md:pl-12">
+            <article lang="fil" className="md:border-border md:pl-12">
               <h2 className="text-xs font-semibold uppercase tracking-[0.3em] text-gold">Filipino / Taglish</h2>
               <p className="mt-3 font-serif text-lg italic leading-relaxed text-foreground/90 md:text-xl">
                 Maligayang pagdating sa BALIK-TANAW! Inaanyayahan namin kayong balikan ang dekada 2000–2010, isang

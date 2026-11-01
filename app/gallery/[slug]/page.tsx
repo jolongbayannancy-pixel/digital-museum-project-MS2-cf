@@ -42,7 +42,7 @@ export default async function GalleryPage({ params }: PageProps<'/gallery/[slug]
           <SectionHeading id="artifacts-title" eyebrow="Mga Artifact" title="On Display" theme={theme} />
           <div className="mt-16 flex flex-col gap-24">
             {gallery.artifacts.map((artifact, index) => (
-              <ArtifactExhibit key={artifact.id} artifact={artifact} index={index} theme={theme} />
+              <ArtifactExhibit key={artifact.id} artifact={artifact} index={index} alternateArtifact={gallery.hiddenArtifacts?.[index]} theme={theme} />
             ))}
           </div>
         </section>
