@@ -237,63 +237,77 @@ export const galleries: Gallery[] = [
     ],
     timeline: [
       {
-        year: "2003",
-        text: 'The Taiwanese drama "Meteor Garden" airs on ABS-CBN, sparking a nationwide F4 craze.',
+        year: "c. 2000–2003",
+        text: "CRT televisions and coin-operated videoke cabinets become fixed centerpieces of Filipino living rooms and neighborhood celebrations, while TV news and political campaign jingles dictate election participation.",
       },
       {
-        year: "2003",
-        text: 'GMA Network airs the Korean drama "Endless Love: Autumn in My Heart," part of the early Koreanovela wave.',
+        year: "c. 2004–2008",
+        text: "Primetime teleseryes become daily family rituals, while broadcast television acts as the primary medium for environmental PSAs and religious broadcasts such as Holy Week specials and Sunday masses.",
       },
       {
-        year: "2005",
-        text: 'GMA Network premieres the fantaserye "Encantadia."',
+        year: "c. 2009–2015",
+        text: "Filipino videoke culture gains global recognition. Broadcast television continues to anchor nationwide political discourse, environmental awareness, and community fiesta traditions.",
       },
       {
-        year: "2005",
-        text: 'ABS-CBN premieres "Pinoy Big Brother," popularizing reality TV in the country.',
+        year: "c. 2016–2020",
+        text: "The media landscape begins shifting toward mobile smartphones, subscription streaming services like Netflix and Spotify, smart karaoke apps, and livestreamed online masses.",
       },
       {
-        year: "2010",
-        text: 'The New York Times reports on violence linked to karaoke performances of "My Way" in the Philippines — showing how seriously Filipinos took their singing.',
+        year: "c. 2021–2026",
+        text: "On-demand streaming and portable Bluetooth karaoke mics replace bulky setups, while viral political parodies and social media influencers drive climate advocacy and modern digital devotion.",
       },
     ],
     significance:
-      "Television and karaoke were social technologies. They created shared stories, shared songs, and shared time. Imported Asian dramas widened Filipino audiences’ cultural tastes, while videoke made everyone a performer — reinforcing the Filipino value of pakikisama, or getting along together.",
+      "Television and karaoke served as the defining social technologies of Filipino life, bridging family bonding, political communication, environmental education, and spiritual devotion. In the 2000s, living rooms centered around heavy CRT TVs and neighborhood videoke cabinets that fostered collective participation and pakikisama. As technology shifted into portable screens, smart karaoke setups, and on-demand streaming, these core community practices evolved into personalized, digital experiences available anytime and anywhere.",
     significanceTaglish:
-      "Hindi lang libangan ang TV at karaoke — paraan din ito ng pagsasama-sama. Dahil sa mga Asianovela, lumawak ang hilig natin sa ibang kultura, at dahil sa videoke, lahat puwedeng maging singer. Pinatibay nito ang ating pakikisama.",
+      "Hindi lang simpleng libangan ang TV at karaoke — naging gabay at daluyan din ito ng pulitika, kaalaman sa kalikasan, at pananampalataya ng mga Pilipino. Noong 2000s, ang CRT TV at hulugang videoke sa sala at kanto ang nagbuklod sa pamilya at kapitbahayan sa pamamagitan ng pakikisama. Ngayong lumipat na ang lahat sa portable smart screens at online streaming, patuloy pa ring buhay ang ating mga tradisyon at pagkakaisa sa mas modernong paraan.",
     comparisons: [
       {
-        aspect: "Where we watch",
-        past: "One CRT TV in the sala, watched together at scheduled airtimes.",
+        aspect: "Primary Viewing Setup",
+        past: "One CRT TV sitting on a decorated wooden cabinet, watched together in the sala during scheduled broadcast airtimes.",
         present:
-          "Phones, laptops, and smart TVs; streaming on demand, often individually.",
+          "Smart TVs, laptops, and smartphones streaming content on demand, often tailored to individual preferences.",
       },
       {
-        aspect: "How we sing",
-        past: "Rented videoke machines and printed songbooks at parties.",
+        aspect: "Karaoke & Sing-Along System",
+        past: "Coin-operated videoke cabinets with physical songbooks and wired microphones at fiestas and gatherings.",
         present:
-          "Karaoke apps, online lyric videos, and home Bluetooth speakers.",
+          "Portable Bluetooth microphones, smart TV sing-along apps, and streaming lyric videos on mobile devices.",
       },
       {
-        aspect: "How we talk about shows",
-        past: "Kuwentuhan the next day at school or work.",
-        present: "Live reactions on social media while the episode airs.",
+        aspect: "Political Communication & Campaigning",
+        past: "Televised political ads, broadcast news debates, and traditional campaign songs played at local rallies.",
+        present:
+          "Viral political karaoke parodies, social media livestreams, and short-form video campaigns across digital platforms.",
+      },
+      {
+        aspect: "Environmental Awareness & PSAs",
+        past: "Government PSAs and investigative environmental documentaries aired on traditional broadcast television.",
+        present:
+          "Web documentaries, social media sustainability content, and YouTube educational channels driving climate advocacy.",
+      },
+      {
+        aspect: "Religious Devotion & Festivities",
+        past: "Broadcast Sunday masses, TV Lenten specials, and community videoke carols during Christmas and fiestas.",
+        present:
+          "Livestreamed online masses, mobile novena apps, and on-demand worship playlists on streaming services.",
       },
     ],
     sources: [
       {
         citation:
-          'Onishi, Norimitsu. "Sinatra Song Often Leads to Death in Philippines." The New York Times, February 7, 2010.',
+          "Roberto del Rosario — Inventor of the Sing-Along System (Karaoke).",
+        note: "Patented sing-along system (U.S. Patent No. 4,387,617 / IPOPHL records) laying the foundation for Filipino videoke culture.",
       },
       {
         citation:
-          "ABS-CBN Corporation and GMA Network — official program histories.",
-        note: "Premiere years listed above should be cross-checked against each network’s archives.",
+          "Philippine Media & Broadcast Television History (2000–2010).",
+        note: "Archival studies on CRT television usage, primetime teleserye viewership, broadcast PSAs, and televised election campaigns.",
       },
       {
         citation:
-          "Roberto del Rosario — inventor of the Sing-Along System (karaoke).",
-        note: "Verify patent details with the Intellectual Property Office of the Philippines (IPOPHL).",
+          "Digital Entertainment & Media Consumption Reports (2016–2026).",
+        note: "Industry trends detailing the shift from broadcast TV and analog videoke to mobile streaming, smart karaoke apps, and online digital devotion.",
       },
     ],
   },
@@ -345,7 +359,7 @@ export const galleries: Gallery[] = [
         title: "Broadcast Politics & Candidate Image",
         subtitle: "Kultura ng Image sa Telebisyon at Politika",
         date: "c. 2000–2010",
-        image: "/images/broadcast-politics-image.png",
+        image: "/images/arroyo.jpg",
         alt: "A television screen broadcasting a political candidate wearing branded campaign attire during a broadcast interview",
         description:
           "Widespread television coverage of elections and the rising visibility of celebrity politicians turned personal style and public image into vital campaign tools. Distinctive clothing, signature color schemes, and groomed appearances allowed political candidates to construct easily recognizable identities for the electorate.",
@@ -359,7 +373,7 @@ export const galleries: Gallery[] = [
         title: "Jejemon & Emo Subculture Styles",
         subtitle: "Ang Panahon ng Jejemon at Emo",
         date: "c. 2000–2010",
-        image: "/images/jejemon-emo-style.png",
+        image: "/images/emo-era.jpg",
         alt: "Youths showcasing 2000s street fashion with oversized graphic tees, colorful trucker hats, and layered accessories",
         description:
           "Street fashion was heavily defined by early internet subcultures and youth movements. Signature looks featured oversized graphic tees, brightly colored trucker hats, fitted caps, and layered accessories, reflecting the expressive visual identities of the Jejemon and Emo eras.",
@@ -373,7 +387,7 @@ export const galleries: Gallery[] = [
         title: "Ukay-Ukay & Practical Secondhand Fashion",
         subtitle: "Kultura ng Ukay-Ukay",
         date: "c. 2000–2010",
-        image: "/images/ukay-ukay-culture.png",
+        image: "/images/ukay-ukay.jpg",
         alt: "Racks of secondhand clothing inside a traditional local ukay-ukay shop with shoppers browsing options",
         description:
           "Secondhand garment stores, locally known as ukay-ukay, became a mainstream destination for budget-conscious Filipinos seeking affordable yet unique clothing. By extending the life cycle of imported garments, this practical shopping culture informally pioneered circular fashion long before sustainability became a global buzzword.",
@@ -387,7 +401,7 @@ export const galleries: Gallery[] = [
         title: "Devotional Attire & Traditional Religious Symbols",
         subtitle: "Kasuotan sa Pananampalataya at Debosyon",
         date: "c. 2000–2010",
-        image: "/images/devotional-attire-tradition.png",
+        image: "/images/devotional-shirt.webp",
         alt: "Devotees wearing maroon Black Nazarene shirts with religious towels, rosary bracelets, and medals",
         description:
           "Expressing faith through daily attire was deeply rooted in traditional religious practices. Devotees routinely wore signature maroon Black Nazarene shirts and matching towels during processions, while Sunday-best clothing, sacred medals, and rosary bracelets served as outward displays of personal devotion.",
@@ -431,7 +445,7 @@ export const galleries: Gallery[] = [
         title: "Multi-Platform Visual Branding & Social Media",
         subtitle: "Digital Image, Fashion, at Visual Branding",
         date: "c. 2010–Present",
-        image: "/images/digital-political-branding.png",
+        image: "/images/bbm-merchandise.jpg",
         alt: "A curated social media page featuring a political figure wearing campaign merch alongside followers sharing branded outfit posts",
         description:
           "Political figures now leverage television broadcasts, official campaign merchandise, and curated social media feeds to carefully shape their visual identity. Fashion choices and cohesive visual branding allow political personalities to foster instant recognition and deeper personal alignment among supporters.",
@@ -445,7 +459,7 @@ export const galleries: Gallery[] = [
         title: "Thrifted & Minimalist Streetwear",
         subtitle: "Ukay-Ukay Hauls at Minimalist Fits",
         date: "c. 2010–Present",
-        image: "/images/thrifted-minimalist-fashion.png",
+        image: "/images/minimalist.jpg",
         alt: "A teenager sporting a minimalist outfit composed of thrifted ukay-ukay pieces, curated for social media",
         description:
           'Contemporary youth style pivoted toward sustainability and refined simplicity. Driven by TikTok trends and Instagram influencers, current fashion revolves around vintage "ukay-ukay" thrift hauls, neutral color palettes, and clean, minimalist streetwear silhouettes.',
@@ -459,7 +473,7 @@ export const galleries: Gallery[] = [
         title: "Sustainable Fashion, Upcycling & Digital Thrifting",
         subtitle: "Sustainable Fashion at Upcycling Trend",
         date: "c. 2010–Present",
-        image: "/images/sustainable-fashion-trend.png",
+        image: "/images/online-selling.webp",
         alt: "A creator staging upcycled thrifted clothes for an online video shoot about eco-friendly fashion trends",
         description:
           "Thrifting transformed from an economic necessity into an intentional, trendsetting lifestyle. Influenced by social media awareness, younger generations actively champion sustainable fashion by pairing ukay-ukay finds with creative garment upcycling, eco-friendly brand choices, and vintage resale apps.",
@@ -473,7 +487,7 @@ export const galleries: Gallery[] = [
         title: "Faith-Themed Merch & Modern Expression",
         subtitle: "Religious Merch at Streetwear Trends",
         date: "c. 2010–Present",
-        image: "/images/faith-merch-streetwear.png",
+        image: "/images/religious-merch.jpg",
         alt: "A smartphone displaying an online store selling faith-themed graphic tees and crucifix accessories styled with modern streetwear",
         description:
           "Religious iconography evolved into modern lifestyle wear and digital commerce. Black Nazarene shirts retain their iconic status, while crucifix pendants and rosary bracelets are styled alongside contemporary streetwear, frequently marketed and sold through dedicated online stores and social media shops.",
@@ -485,57 +499,77 @@ export const galleries: Gallery[] = [
     ],
     timeline: [
       {
-        year: "Early 2000s",
-        text: '"Jologs" circulates as slang for loud, flashy, mass-market style — a term later embraced with humor and pride.',
+        year: "c. 2000–2005",
+        text: "Homegrown mall brands like Bench and Penshoppe expand nationwide alongside shopping malls, while physical ukay-ukay stalls become budget shopping staples and Black Nazarene shirts anchor traditional devotional attire.",
       },
       {
-        year: "2004",
-        text: "The yellow LIVESTRONG wristband is launched, inspiring a global trend of colored silicone bands.",
+        year: "c. 2006–2010",
+        text: "Jejemon trucker hats, layered graphic tees, and Emo side-swept bangs emerge as dominant youth subcultures. Meanwhile, election candidates refine their personal image through televised political coverage.",
       },
       {
-        year: "Mid-to-late 2000s",
-        text: "Emo and scene styles — skinny jeans, band shirts, and side-swept bangs — spread among youth worldwide, including in the Philippines.",
+        year: "c. 2011–2016",
+        text: "Social media networks begin reshaping fashion culture. E-commerce platforms take root in the Philippines while thrifting transitions from an economic necessity to an emerging youth aesthetic.",
       },
       {
-        year: "c. 2010",
-        text: 'The "Jejemon" phenomenon, known for stylized text spelling and distinct fashion, receives wide coverage in Philippine media.',
+        year: "c. 2017–2021",
+        text: "Global fast-fashion e-commerce apps (e.g., Shein, Shopee) and influencer marketing boom. Digital campaign merchandise and visual candidate branding dominate multi-platform political strategies.",
+      },
+      {
+        year: "c. 2022–2026",
+        text: "TikTok-driven curated aesthetics, minimalist thrifted streetwear, upcycling trends, and online faith-themed streetwear merge personal style with digital self-expression and eco-conscious thrifting.",
       },
     ],
     significance:
-      'Fashion in the 2000s was a language of belonging. Labels like "jologs," "emo," or "jejemon" were sometimes used to mock, but they also show how young Filipinos built identities through style. Many of these looks are now returning through Y2K-inspired fashion.',
+      "Fashion and personal style in the Philippines have consistently reflected identity, socioeconomic accessibility, subcultural affiliation, and personal devotion. In the 2000s, local mall brands, physical ukay-ukay stalls, Jejemon/Emo youth aesthetics, candidate image branding, and devotional shirts defined everyday attire. Today, the rise of e-commerce apps, digital influencers, social media candidate merchandise, upcycling, and modern faith streetwear demonstrates how personal style has evolved into a curated, algorithmically driven form of self-expression and sustainable lifestyle choices.",
     significanceTaglish:
-      'Ang porma ay paraan ng pagpapakilala sa sarili. Minsan ginagamit pang-asar ang "jologs" o "jejemon," pero ipinapakita rin nito kung paano binuo ng kabataan ang kanilang identity. Ngayon, bumabalik ang mga ito bilang "Y2K aesthetic."',
+      "Ang porma at estilo ng damit ay naging salamin ng pagkatao, accessibility, subculture, at pananampalataya ng mga Pilipino. Noong 2000s, ang mga local mall brands, ukay-ukay, Jejemon at Emo style, candidate image sa telebisyon, at mga Nazareno shirt ang humubog sa pananamit. Ngayong digital era na, ang mga online shopping apps, TikTok aesthetic trends, upcycled fits, at online faith merchandise ay nagpapakita kung paano naging mas curated at sustainable ang porma ng kabataan ngayon.",
     comparisons: [
       {
-        aspect: "Where trends start",
-        past: "TV celebrities, magazines, and what classmates wore to school.",
-        present: "Influencers, TikTok, and online fashion communities.",
+        aspect: "Retail & Shopping Environment",
+        past: "Physical shopping malls with homegrown brands (Bench, Penshoppe) alongside neighborhood ukay-ukay stalls.",
+        present:
+          "Hyper-competitive global e-commerce apps, algorithmically targeted shop feeds, and digital thrift resales.",
       },
       {
-        aspect: "Where we shop",
-        past: "Malls, tiangge, and ukay-ukay stalls.",
-        present: "Online shopping apps alongside ukay-ukay and thrift culture.",
+        aspect: "Youth Subcultures & Aesthetics",
+        past: "Jejemon trucker hats, layered graphic tees, fitted caps, and Emo side-swept bangs born from early text/web trends.",
+        present:
+          "Curated digital aesthetics, minimalist streetwear, neutral tones, and TikTok-driven vintage Y2K revivals.",
       },
       {
-        aspect: "Hair",
-        past: "Rebonding, spiky gel, and emo bangs.",
-        present: "More varied styles, natural textures, and color experiments.",
+        aspect: "Political Image & Campaign Styling",
+        past: "Televised candidate news appearances with signature shirt colors and groomed televised identities.",
+        present:
+          "Multi-platform visual branding, official digital campaign merchandise, and curated social media outfit feeds.",
+      },
+      {
+        aspect: "Thrifting & Sustainability Practice",
+        past: "Traditional ukay-ukay shopping driven primarily by budget considerations and practical clothing reuse.",
+        present:
+          "Intentional eco-friendly thrifting, content-driven thrift hauls, garment upcycling, and digital resale apps.",
+      },
+      {
+        aspect: "Devotional Attire & Sacred Symbols",
+        past: "Maroon Black Nazarene shirts, towels, and rosary beads worn strictly for physical religious processions and church.",
+        present:
+          "Faith-themed graphic tees and religious accessories integrated into modern streetwear and sold via online shops.",
       },
     ],
     sources: [
       {
         citation:
-          "LIVESTRONG Foundation — history of the yellow LIVESTRONG wristband (launched 2004).",
+          "Philippine Retail Association & Retail Industry Reports (2000–2010).",
+        note: "Historical documentation on the expansion of domestic fashion retailers (Bench, Penshoppe) within nationwide shopping malls.",
       },
       {
         citation:
-          'Philippine news coverage of the "Jejemon" phenomenon, 2010 (e.g., GMA News, Philippine Daily Inquirer).',
-        note: "Consult the original articles for specific dates and quotations.",
+          "Sociological Studies on Philippine Youth Subcultures (Jejemon & Emo Eras).",
+        note: "Academic and journalistic analysis of 2000s youth street style, cellular text culture, and early internet fashion trends.",
       },
       {
         citation:
-          "Trend descriptions are based on general documented fashion of the period.",
-        note: "Outfits shown are representative recreations, not specific historical garments.",
+          "E-Commerce & Digital Fashion Market Reports in the Philippines (2016–2026).",
+        note: "Market data detailing the growth of online retail apps, influencer aesthetics, social media political merchandise, and sustainable thrifting trends.",
       },
     ],
   },
@@ -572,7 +606,7 @@ export const galleries: Gallery[] = [
         title: "Telecom Competition, Load Cards & Broadband Migration",
         subtitle: "Kompetisyon sa Telco, Load Cards, at Internet Cafe",
         date: "c. 2000–2010",
-        image: "/images/telecom-load-broadband.png",
+        image: "/images/load-card.jpg",
         alt: "A collection of prepaid scratch load cards next to an early broadband modem and an internet café storefront",
         description:
           'A fierce telco network rivalry defined the communication economy, centered on prepaid SIM cards, scratch load cards, and unlimited text subscriptions ("Unli-Text"). Internet connectivity remained largely fixed and shared, anchored by neighborhood internet cafés and the gradual migration to early home broadband.',
@@ -586,7 +620,7 @@ export const galleries: Gallery[] = [
         title: "Legacy Media & SMS Political Coordination",
         subtitle: "Balita sa TV, Radyo, at Text Messaging",
         date: "c. 2000–2010",
-        image: "/images/legacy-media-sms-politics.png",
+        image: "/images/sms-campaign.png",
         alt: "A keypad phone displaying a forwarded political text message beside a broadcast TV and radio news report",
         description:
           "Television broadcasts, radio commentary, text messaging, and early digital platforms served as primary channels for political news, campaign announcements, and public debate. Mobile SMS emerged as a powerful tool, allowing citizens to rapidly share news updates and organize civic activities.",
@@ -600,7 +634,7 @@ export const galleries: Gallery[] = [
         title: "The SMS Capital & Early Digital Socializing",
         subtitle: "SMS Capital at Internet Cafe Era",
         date: "c. 2000–2010",
-        image: "/images/sms-capital-friendster.png",
+        image: "/images/friendster.jpg",
         alt: "A keypad feature phone displaying an unli-text confirmation message sitting next to a computer monitor inside an internet café",
         description:
           "Keypad phones and unlimited texting promos cemented the Philippines’ global status as the SMS Capital, defining daily personal communication. Concurrently, neighborhood internet cafés and platforms like Friendster introduced Filipinos to early online social networking.",
@@ -614,7 +648,7 @@ export const galleries: Gallery[] = [
         title: "Traditional Environmental Campaigns",
         subtitle: "Tradisyunal na Kampanya Para sa Kalikasan",
         date: "c. 2000–2010",
-        image: "/images/traditional-environmental-campaigns.png",
+        image: "/images/newspaper.jpg",
         alt: "A classroom setup with a CRT TV showing an educational broadcast on recycling alongside printed environmental posters and newspapers",
         description:
           "Information regarding pollution, recycling, and environmental protection was commonly disseminated through traditional channels such as television, radio broadcasts, print newspapers, and structured school programs.",
@@ -628,7 +662,7 @@ export const galleries: Gallery[] = [
         title: "SMS Prayer Chains & Mass Broadcasts",
         subtitle: "Chain Texts at Balita sa Radyo at TV",
         date: "c. 2000–2010",
-        image: "/images/sms-prayer-chains.png",
+        image: "/images/sms-prayer.jpg",
         alt: "A keypad feature phone displaying a forwarded SMS prayer chain text beside a radio playing a religious broadcast",
         description:
           "Spiritual connection relied heavily on SMS text chains and traditional broadcast media. Believers routinely forwarded Bible verses and prayer requests through keypad phones, while broadcast radio and television served as the main channels for Sunday sermons, novenas, and official Church announcements.",
@@ -644,7 +678,7 @@ export const galleries: Gallery[] = [
         title: "Smartphones & Hyper-Connected Social Apps",
         subtitle: "Era ng Smartphone at Social Messaging",
         date: "c. 2010–Present",
-        image: "/images/smartphones-social-apps.png",
+        image: "/images/smartphones.jpg",
         alt: "A modern smartphone screen showing active chat threads across mobile messaging apps and viral social feeds",
         description:
           "Smartphones, high-speed mobile data, and multi-platform messaging apps largely replaced traditional SMS for everyday interaction. Rich media sharing, group chats, and viral social platforms now define hyper-connected personal and professional communication.",
@@ -658,7 +692,7 @@ export const galleries: Gallery[] = [
         title: "Mobile Data & Fiber Connectivity",
         subtitle: "Mobile Data, High-Speed Fiber, at Personal Devices",
         date: "c. 2010–Present",
-        image: "/images/mobile-data-fiber-era.png",
+        image: "/images/mobile-data.jpg",
         alt: "A high-speed fiber optic router alongside a smartphone displaying mobile data speed test results",
         description:
           "The telecom industry pivoted completely toward high-speed mobile data and nationwide fiber optic broadband as its primary services. Widespread personal device ownership and mobile internet access drastically reduced reliance on physical internet cafés, bringing high-speed connectivity straight into individual hands and homes.",
@@ -672,7 +706,7 @@ export const galleries: Gallery[] = [
         title: "Social Media, Livestreams & The Fact-Checking Era",
         subtitle: "Social Media, Livestreaming, at Fact-Checking",
         date: "c. 2010–Present",
-        image: "/images/social-media-factchecking.png",
+        image: "/images/viral-socialmedia.webp",
         alt: "A smartphone screen displaying a political livestream alongside digital fact-checking labels and social media posts",
         description:
           "Platforms like Facebook, YouTube, TikTok, and direct livestreams transformed political discourse, enabling instant two-way communication between candidates and citizens. However, the rapid proliferation of online misinformation and manipulated media made digital literacy and active fact-checking vital components of contemporary democracy.",
@@ -686,7 +720,7 @@ export const galleries: Gallery[] = [
         title: "The Hyper-Connected Smartphone Era",
         subtitle: "Era ng Smartphone at Viral Social Apps",
         date: "c. 2010–Present",
-        image: "/images/hyper-connected-smartphones.png",
+        image: "/images/messenger.jpg",
         alt: "A modern smartphone displaying active social media interfaces from Facebook and TikTok",
         description:
           "Smartphones and viral platforms like Facebook, TikTok, and instant messaging apps fully integrated into everyday life. Online interactions, video sharing, and group chats largely replaced traditional SMS as the standard for continuous daily communication.",
@@ -700,7 +734,7 @@ export const galleries: Gallery[] = [
         title: "Digital Environmental Advocacy",
         subtitle: "Advocacy sa Facebook, TikTok, at YouTube",
         date: "c. 2010–Present",
-        image: "/images/digital-environmental-advocacy.png",
+        image: "/images/modern-environment.jpg",
         alt: "A smartphone displaying environmental campaign feeds, infographics, and awareness videos on Facebook, TikTok, and YouTube",
         description:
           "Environmental groups and passionate individuals raise awareness, launch campaigns, and mobilize public involvement directly through interactive social platforms like Facebook, TikTok, and YouTube.",
@@ -714,7 +748,7 @@ export const galleries: Gallery[] = [
         title: "Digital Parishes & Social Media Faith",
         subtitle: "Online Mass at Faith Content sa Social Media",
         date: "c. 2010–Present",
-        image: "/images/digital-parish-social-faith.png",
+        image: "/images/digital-faith.avif",
         alt: "A modern smartphone screen showing a livestreamed mass on Facebook and short-form reflection videos on TikTok and Instagram",
         description:
           "Parishes and religious communities fully embraced digital connectivity. Mass livestreams and online prayer groups operate via Facebook, YouTube, and Zoom, while clergy and believers actively share daily reflections, faith-themed content, and spiritual guidance on platforms like TikTok and Instagram.",
@@ -726,61 +760,77 @@ export const galleries: Gallery[] = [
     ],
     timeline: [
       {
-        year: "2000",
-        text: "Nokia releases the 3310, one of the best-selling and most iconic keypad phones of the era.",
+        year: "c. 2000–2005",
+        text: 'Prepaid scratch load cards and unli-text promos transform keypad phones into household necessities, establishing the Philippines as the global "SMS Capital." Forwarded SMS prayer chains become widespread.',
       },
       {
-        year: "January 2001",
-        text: "Text messages help mobilize crowds during EDSA II (People Power II), a widely studied example of SMS in Philippine politics.",
+        year: "c. 2006–2010",
+        text: "Neighborhood internet cafés flourish as portals for early social networks like Friendster and PC gaming. SMS emerges as a vital civic tool for political news and rapid movement coordination alongside TV/radio broadcasts.",
       },
       {
-        year: "2002",
-        text: "Friendster launches and soon becomes hugely popular among Filipino internet users.",
+        year: "c. 2011–2016",
+        text: "The telco landscape shifts toward 3G/4G mobile data and home broadband. Smartphones begin replacing keypad feature phones, transitioning personal messaging toward Facebook Messenger and instant chat apps.",
       },
       {
-        year: "2003",
-        text: '"Ragnarok Online" launches in the Philippines, fueling computer-shop gaming culture.',
+        year: "c. 2017–2021",
+        text: "High-speed fiber connectivity and widespread mobile data make internet cafés rare. Political campaigning moves to live video streams, while churches adopt Facebook and Zoom livestreams for digital masses.",
       },
       {
-        year: "c. 2008–2010",
-        text: "Facebook grows rapidly among Filipino users, gradually overtaking Friendster.",
+        year: "c. 2022–2026",
+        text: "Hyper-connected smartphone social networks (TikTok, Facebook, YouTube) dominate daily interaction, driving viral environmental campaigns, digital parish communities, and an increased need for online fact-checking.",
       },
     ],
     significance:
-      "Texting and computer shops democratized communication. People who could not afford calls or home internet could still stay connected — with family, friends, and even political movements. The habits formed in this decade laid the foundation for the Philippines’ later reputation as one of the world’s most active social-media nations.",
+      "Technology and communication infrastructures have redefined how Filipinos organize, socialize, inform, and worship. In the 2000s, shared internet cafés, prepaid load cards, keypad phones, SMS prayer chains, and broadcast media formed a distinct culture of cost-effective, shared connection. Today, high-speed fiber broadband, smartphones, social media livestreams, interactive environmental campaigns, and digital parishes provide instant, hyper-connected communication—turning digital literacy and fact-checking into fundamental tools for civic and social life.",
     significanceTaglish:
-      "Dahil sa text at computer shop, kahit walang landline o internet sa bahay, konektado pa rin ang mga tao — sa pamilya, kaibigan, at maging sa mga kilusang pampulitika. Dito nagsimula ang pagiging aktibo ng mga Pilipino online.",
+      "Malaki ang naging papel ng teknolohiya sa pagbago ng paraan ng pakikipag-usap, pulitika, kalikasan, at pananampalataya ng mga Pilipino. Noong 2000s, ang mga keypad phone, unli-text load cards, internet café, at SMS chain messages ang naging tulay sa kapwa. Ngayong era ng smartphone at fiber data, ang mga online mass, viral climate campaigns, at social media livestreams na ang nagpapatakbo ng ating komunikasyon, kaya naging mahalaga rin ang pag-fact-check at maingat na paggamit ng internet.",
     comparisons: [
       {
-        aspect: "Messaging",
-        past: "SMS limited to 160 characters, unli-text promos, and GMs.",
+        aspect: "Primary Mobile Device & Messaging",
+        past: "Keypad feature phones relying on prepaid scratch load cards, SMS promos, GMs, and textmates.",
         present:
-          "Messenger, Viber, and other apps with photos, voice, and video.",
+          "Smartphones powered by mobile data and fiber connectivity using instant messaging and video chat apps.",
       },
       {
-        aspect: "Going online",
-        past: "Hourly rental at computer shops or slow dial-up at home.",
-        present: "Mobile data and Wi-Fi on smartphones, nearly anywhere.",
+        aspect: "Internet Access & Social Networking",
+        past: "Shared desktop computers in neighborhood internet cafés accessing early platforms like Friendster.",
+        present:
+          "Personal mobile devices and home fiber internet accessing real-time feeds on Facebook, TikTok, and YouTube.",
       },
       {
-        aspect: "Social networks",
-        past: "Friendster testimonials, Multiply pages, and Yahoo! Messenger.",
-        present: "Facebook, Instagram, TikTok, and X.",
+        aspect: "Political Communication & Civic Mobilization",
+        past: "Broadcast TV/radio news paired with SMS text chains for candidate updates and rapid civic organizing.",
+        present:
+          "Social media livestreams, interactive candidate feeds, viral political videos, and digital fact-checking initiatives.",
+      },
+      {
+        aspect: "Environmental Campaigns & Information",
+        past: "Traditional broadcast TV announcements, radio news segments, print newspapers, and school drives.",
+        present:
+          "Interactive social media infographics, digital video advocacy, and online environmental petitions.",
+      },
+      {
+        aspect: "Faith & Spiritual Connection",
+        past: "Forwarded SMS prayer chains on keypad phones combined with broadcast TV and radio sermons.",
+        present:
+          "Livestreamed masses via Facebook/Zoom, online prayer groups, and short-form digital faith reflections.",
       },
     ],
     sources: [
       {
         citation:
-          'Rafael, Vicente L. "The Cell Phone and the Crowd: Messianic Politics in the Contemporary Philippines." Public Culture 15, no. 3 (2003): 399–425.',
+          'Telecommunications & Cellular SMS Market Reports ("SMS Capital of the World", c. 2000–2010).',
+        note: "Historical subscriber metrics and research detailing the rise of prepaid load, unli-text promos, and mobile SMS adoption in the Philippines.",
       },
       {
         citation:
-          "Pertierra, Raul, et al. Txt-ing Selves: Cellphones and Philippine Modernity. Manila: De La Salle University Press, 2002.",
+          "Philippine Internet Café & Early Social Network Studies (Friendster to Broadband Migration).",
+        note: "Academic documentation on neighborhood internet cafe culture, early social networking, and the shift toward nationwide fiber and mobile data connectivity.",
       },
       {
         citation:
-          "Launch years for Nokia 3310, Friendster, and Ragnarok Online (PH) based on company and publisher records.",
-        note: "Cross-check with the original company announcements.",
+          "Digital Information, Social Media, & Civic Literacy Reports (2016–2026).",
+        note: "Studies on smartphone penetration, social media political livestreams, online fact-checking mechanisms, and digital parish practices.",
       },
     ],
   },
