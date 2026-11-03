@@ -15,8 +15,6 @@ type ArtifactExhibitProps = {
 
 export function ArtifactExhibit({ artifact, alternateArtifact, index, theme }: ArtifactExhibitProps) {
   const [isHovered, setIsHovered] = useState(false)
-  const reversed = index % 2 === 1
-  
   const activeArtifact = isHovered && alternateArtifact ? alternateArtifact: artifact
 
   return (
@@ -25,11 +23,10 @@ export function ArtifactExhibit({ artifact, alternateArtifact, index, theme }: A
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
       className={cn(
-        'relative grid items-center gap-8 md:grid-cols-[1.25fr_1fr] md:gap-14 transition-all duration-700',
-        reversed && 'md:grid-cols-[1fr_1.25fr]',
+        'relative grid items-center gap-8 md:grid-cols-[1.25fr_1fr] md:gap-14 transition-all duration-4000',
       )}
     >
-      <figure className={cn('relative', reversed && 'md:order-2')}>
+      <figure className='relative'>
         <div aria-hidden="true" className="spotlight absolute -inset-x-8 -top-16 h-72" />
         <div className="gilded-frame relative">
           <div className="mat">
@@ -40,7 +37,7 @@ export function ArtifactExhibit({ artifact, alternateArtifact, index, theme }: A
                 alt={activeArtifact.alt}
                 fill
                 sizes="(min-width: 768px) 55vw, 100vw"
-                className={cn("object-cover transition-all duration-700 ease-in-out animate-in fade-in duration 700", isHovered? "slide-in-from-right-8" : "slide-in-from-left-8")}
+                className={cn("object-cover transition-all duration-4000 ease-in-out animate-in fade-in duration 700", isHovered? "slide-in-from-right-8" : "slide-in-from-left-8")}
               />
             </div>
           </div>
@@ -53,7 +50,7 @@ export function ArtifactExhibit({ artifact, alternateArtifact, index, theme }: A
           Exhibit {index + 1} · {activeArtifact.date}
         </p>
         <div key={`${activeArtifact.id}-text-${isHovered ? 'right': 'left'}`}
-        className={cn( "transition-all duration-700 ease-in-out animate-in fade-in duration-700",
+        className={cn( "transition-all duration-4000 ease-in-out animate-in fade-in duration-4000",
           isHovered ? "slide-in-from-right-8" : "slide-in-from-left-8"
         )}
         >

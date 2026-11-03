@@ -111,7 +111,7 @@ export const galleries: Gallery[] = [
         title: "Television & Campaign Songs in Politics",
         subtitle: "Telebisyon at Kantahang Pampulitika",
         date: "c. 2000–2010",
-        image: "/images/tv-karaoke-politics.png",
+        image: "/images/campaign-song.jpg",
         alt: "A television playing election news beside a neighborhood karaoke setup with campaign flyers nearby",
         description:
           "Television served as a primary bridge between politicians and voters through televised news, debates, and political advertisements. Meanwhile, familiar songs and catchy campaign jingles were integrated into public rallies and local karaoke gatherings to make political messages engaging and memorable for the electorate.",
@@ -125,7 +125,7 @@ export const galleries: Gallery[] = [
         title: "Broadcast Environmental Awareness",
         subtitle: "Kampanya sa Telebisyon Para sa Kalikasan",
         date: "c. 2000–2010",
-        image: "/images/tv-environmental-awareness.png",
+        image: "/images/tree-planting.jpg",
         alt: "A CRT television showing a public service announcement about proper waste segregation and recycling",
         description:
           "Broadcast television played a central role in raising ecological awareness through news segments, investigative documentaries, and government public service announcements. These programs educated households on proper waste disposal, recycling practices, and local conservation initiatives.",
@@ -139,7 +139,7 @@ export const galleries: Gallery[] = [
         title: "Fiestas & Broadcast Devotion",
         subtitle: "Fiesta, Pasko, at Pananampalataya sa Telebisyon",
         date: "c. 2000–2010",
-        image: "/images/fiesta-broadcast-devotion.png",
+        image: "/images/fiestas.jpg",
         alt: "A family gathered in front of a CRT TV watching a Lenten special alongside a festive videoke setup",
         description:
           "Religious traditions and community celebrations were tightly tied to traditional media. Patron saint fiestas and Christmas gatherings centered around videoke carols and neighborhood singing, while broadcast television brought sacred devotions—such as Sunday masses and Holy Week specials—directly into Filipino living rooms.",
@@ -197,7 +197,7 @@ export const galleries: Gallery[] = [
         title: "Digital Politics & Viral Entertainment",
         subtitle: "Kampanya sa Media at Social Network",
         date: "c. 2016–2026",
-        image: "/images/digital-politics-entertainment.png",
+        image: "/images/digital-campaign.jpg",
         alt: "A smartphone screen displaying a viral political karaoke parody video alongside a streaming news broadcast",
         description:
           "While broadcast television remains a vital source of election updates, political communication has expanded online through social media and digital platforms. Modern political parodies, online karaoke trends, and short viral videos show how contemporary Filipino entertainment and political discourse now continuously overlap.",
@@ -211,7 +211,7 @@ export const galleries: Gallery[] = [
         title: "Digital Climate Action & Social Media",
         subtitle: "Advocacy sa Digital at Social Media",
         date: "c. 2016–2026",
-        image: "/images/digital-environmental-media.png",
+        image: "/images/sustainability-influencers.jpeg",
         alt: "A smartphone screen displaying a viral video campaign about climate change and sustainable living practices",
         description:
           "Environmental advocacy expanded beyond traditional TV broadcasts into digital spaces. High-definition web documentaries, YouTube educational channels, and short-form social media content now drive global conversations around climate change, sustainability, and eco-friendly lifestyles.",
@@ -225,7 +225,7 @@ export const galleries: Gallery[] = [
         title: "Digital Worship & On-Demand Devotion",
         subtitle: "Online Mass at Digital na Pagsamba",
         date: "c. 2016–2026",
-        image: "/images/digital-worship-streaming.png",
+        image: "/images/digital-worship.jpg",
         alt: "A tablet displaying an online livestreamed mass alongside a mobile phone playing worship songs on a streaming app",
         description:
           "Faith-based activities expanded seamlessly into the digital realm. Online masses and livestreamed novenas complement traditional TV broadcasts, while YouTube playlists and smart karaoke apps allow individuals to access worship songs and sing-along carols on demand anytime, anywhere.",
@@ -317,7 +317,7 @@ export const galleries: Gallery[] = [
         title: "Jejemon Streetwear Subculture",
         subtitle: "Ang Kultura ng Jejemon Fashion",
         date: "c. 2000–2010",
-        image: "/images/jejemon-fashion.png",
+        image: "/images/jejemon.webp",
         alt: "A teen wearing a brightly colored sideways trucker hat, layered colorful shirts, and vivid street accessories",
         description:
           'Brightly colored trucker hats worn at jaunty angles, layered t-shirts, oversized shorts, and vivid accessories defined the iconic "Jejemon" subculture. Born alongside early text-messaging and internet trends, this expressive street style became an unmistakable pop-culture identity for youth during the decade.',
@@ -331,7 +331,7 @@ export const galleries: Gallery[] = [
         title: "The Rise of Homegrown Mall Brands",
         subtitle: "Pag-usbong ng Local Mall Brands",
         date: "c. 2000–2010",
-        image: "/images/homegrown-retail-brands.png",
+        image: "/images/bench.jpeg",
         alt: "A busy shopping mall hallway featuring large storefront displays of homegrown Philippine retail brands",
         description:
           "The Philippine fashion economy evolved from being primarily a global garment manufacturing exporter into a landscape dominated by major domestic retail brands. Heavyweights like Bench and Penshoppe rapidly expanded their reach by leveraging the rapid growth of nationwide mall networks.",
@@ -403,7 +403,7 @@ export const galleries: Gallery[] = [
         title: "Curated Digital Aesthetics & Streetwear",
         subtitle: "Modern Aesthetics at TikTok Trends",
         date: "c. 2010–Present",
-        image: "/images/modern-aesthetic-fashion.png",
+        image: "/images/aesthetic.jpg",
         alt: "A youth dressed in minimal streetwear and thrifted vintage clothing posing for a social media outfit-of-the-day photo",
         description:
           'Modern youth fashion shifted toward curated digital aesthetics, clean minimal streetwear, thrifted ("ukay-ukay") vintage fits, and viral TikTok trends. Driven by algorithmically curated social feeds, contemporary style prioritizes personal expression, retro revival, and effortless aesthetic coordination.',
@@ -417,7 +417,7 @@ export const galleries: Gallery[] = [
         title: "Hyper-Competitive E-Commerce & Influencer Fashion",
         subtitle: "Global E-Commerce at Influencer Trends",
         date: "c. 2010–Present",
-        image: "/images/global-ecommerce-fashion.png",
+        image: "/images/shein.jpg",
         alt: "A smartphone screen displaying an online shopping app feed with targeted fashion recommendations and social influencer promotions",
         description:
           "The contemporary fashion market transformed into a globalized, hyper-competitive ecosystem. Today, digital shopping platforms, dedicated brand apps, algorithmic advertising, and influencer-driven aesthetics serve as the primary economic drivers of the Philippine fashion industry.",
