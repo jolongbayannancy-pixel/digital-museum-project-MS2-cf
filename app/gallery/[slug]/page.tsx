@@ -32,6 +32,13 @@ export default async function GalleryPage({ params }: PageProps<'/gallery/[slug]
 
   const theme = roomThemes[gallery.theme]
 
+  // Determine the maximum length among past, present, and future artifact lists to map through exhibits
+  const maxCount = Math.max(
+    gallery.prevArtifacts?.length || 0,
+    gallery.currArtifacts?.length || 0,
+    gallery.futureArtifacts?.length || 0
+  )
+
   return (
     <div className={cn('min-h-svh', theme.wall)}>
       <MuseumNav showBackToHall label={`Gallery ${gallery.number} · ${gallery.title}`} />
@@ -41,9 +48,34 @@ export default async function GalleryPage({ params }: PageProps<'/gallery/[slug]
         <section aria-labelledby="artifacts-title" className="mx-auto max-w-6xl px-4 py-12 md:px-8">
           <SectionHeading id="artifacts-title" eyebrow="Mga Artifact" title="On Display" theme={theme} />
           <div className="mt-16 flex flex-col gap-24">
-            {gallery.artifacts.map((artifact, index) => (
-              <ArtifactExhibit key={artifact.id} artifact={artifact} index={index} alternateArtifact={gallery.hiddenArtifacts?.[index]} theme={theme} />
-            ))}
+            {Array.from({ length: maxCount }).map((_, index) => {
+              const past = gallery.prevArtifacts?.[index]
+              const present = gallery.currArtifacts?.[index]
+              const future = gallery.futureArtifacts?.[index]
+
+              // Build the rotating sequence for this specific exhibit card
+              const sequence = [
+                ...(past ? [past] : []),
+                ...(present ? [present] : []),
+                ...(future ? [future] : []),
+              ]
+
+              // Fallback default artifact if a slot is empty
+              const baseArtifact = present || past || future
+              if (!baseArtifact) return null
+
+              return (
+                <ArtifactExhibit
+                  key={baseArtifact.id || index}
+                  artifact={baseArtifact}
+                  pastArtifact={past}
+                  futureArtifact={future}
+                  artifacts={sequence}
+                  index={index}
+                  theme={theme}
+                />
+              )
+            })}
           </div>
         </section>
 

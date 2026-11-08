@@ -41,8 +41,9 @@ export type Gallery = {
   intro: string;
   introTaglish: string;
   theme: "mahogany" | "teak" | "walnut";
-  artifacts: Artifact[];
-  hiddenArtifacts: Artifact[];
+  prevArtifacts: Artifact[];
+  currArtifacts: Artifact[];
+  futureArtifacts: Artifact[];
   timeline: TimelineEntry[];
   significance: string;
   significanceTaglish: string;
@@ -65,7 +66,7 @@ export const galleries: Gallery[] = [
     introTaglish:
       "Noong 2000s, ang TV ang sentro ng sala. Sabay-sabay nanonood ang pamilya ng teleserye tuwing gabi, at walang birthday o fiesta na kumpleto kung walang videoke. Dito, babalikan natin ang mga palabas at kanta na nagbuklod sa atin.",
     theme: "mahogany",
-    artifacts: [
+    prevArtifacts: [
       {
         id: "crt-tv",
         title: "The CRT Television",
@@ -149,7 +150,7 @@ export const galleries: Gallery[] = [
           "Exhibit 1.9 — Traditional fiesta videoke singing and broadcast TV religious specials.",
       },
     ],
-    hiddenArtifacts: [
+    currArtifacts: [
       {
         id: "subscription-entertainment",
         title: "Subscription & Digital Streaming",
@@ -233,6 +234,93 @@ export const galleries: Gallery[] = [
           "Lumipat din sa digital space ang mga gawaing pananampalataya. May mga online mass at livestreamed novena na sa internet, habang ang mga worship songs at carols sa YouTube at smart karaoke apps ay madali nang ma-access at makantahan anumang oras.",
         caption:
           "Exhibit 1.10 — Livestreamed religious services and digital worship song streaming.",
+      },
+    ],
+    futureArtifacts: [
+      {
+        id: "ai-karaoke-systems",
+        title: "AI-Powered Karaoke Systems",
+        subtitle: "Ang Bagong Mukha ng Pambansang Libangan",
+        date: "c. 2024–Present",
+        image: "/images/ai-karaoke-systems.jpg",
+        alt: "A lively family gathering around a smart AI karaoke system displaying personalized song recommendations, interactive voice visuals, and virtual duet avatars on a large screen",
+        description:
+          "Interactive home entertainment reached a new milestone with the integration of artificial intelligence into traditional singing setups. Moving beyond simple pitch correction and static song lists, modern AI karaoke systems deliver personalized song recommendations tailored to users' vocal ranges, enable seamless virtual duets, and create highly interactive singing experiences for families and friends gathering together.",
+        descriptionTaglish:
+          "Mas naging dynamic at interactive ang pambansang libangan sa pagdating ng artificial intelligence sa karaoke setups. Hindi na lang ito basta simpleng lyrics screen at minus-one; ngayon, ang mga AI karaoke systems ay nagbibigay na ng personalized song recommendations batay sa boses ng kumakanta, virtual duets, at interactive features na mas nagpapasaya sa bonding ng pamilya at magkakaibigan.",
+        caption:
+          "Exhibit 1.3 — Next-generation AI karaoke setup featuring interactive singing experiences and personalized recommendations.",
+      },
+      {
+        id: "ai-monetized-karaoke-streaming",
+        title: "Subscription-Based & AI-Driven Entertainment",
+        subtitle: "Pinagsamang Streaming Bundles at AI Karaoke",
+        date: "c. 2026–Present",
+        image: "/images/ai-karaoke-streaming-bundle.jpg",
+        alt: "A modern home media interface featuring bundled streaming packages alongside a dedicated AI karaoke app with real-time song recommendations and creator tipping features",
+        description:
+          "The modern digital entertainment ecosystem thrives on tiered subscription bundles, direct creator monetization, and specialized AI-driven applications. Beyond standard video and music streaming, interactive experiences like home karaoke have transitioned into subscription apps, leveraging artificial intelligence to analyze vocal profiles, curated personalized song selections, and seamlessly integrate into home entertainment platforms.",
+        descriptionTaglish:
+          "Patuloy ang pag-unlad ng digital entertainment gamit ang mga paid streaming bundles, creator income, at AI-driven apps. Hindi na lang basta palabas o musika ang kasama sa subscriptions; maging ang karaoke ay naging paid app na rin na gumagamit ng AI para magrekomenda ng tamang kanta batay sa boses at trip ng kumakanta, na mas nagpapadali sa bonding sa bahay.",
+        caption:
+          "Exhibit 1.4 — Integrated streaming subscription model showcasing AI-curated karaoke software.",
+      },
+      {
+        id: "immersive-political-broadcasting",
+        title: "Spatial Politics & Immersive Campaigns",
+        subtitle: "3D Debates, Virtual Concerts, at Interaktibong Pulitika",
+        date: "c. 2026–Future",
+        image: "/images/spatial-political-campaign.jpg",
+        alt: "A room-scale 3D hologram setup displaying candidates at a political debate alongside floating interactive policy evidence cards and a crowd engaged in a virtual campaign concert",
+        description:
+          "Political engagement evolved beyond 2D screens into room-scale, three-dimensional spatial experiences where voters feel directly present at debates and can examine interactive evidence in real time alongside candidates. Virtual campaign concerts bring remote supporters together into shared digital venues featuring spatial audio, synchronized multilingual karaoke, and transparently labeled AI performers. Viewers can seamlessly transition between live entertainment and interactive breakdowns of the policies backing each campaign message.",
+        descriptionTaglish:
+          "Mas naging personal at immersive ang politika sa pagpasok ng room-scale 3D experiences, kung saan nararamdaman ng mga botante na naroon sila sa mismong debate habang sinusuri ang mga interaktibong ebidensya sa tabi ng mga kandidato. Ang mga virtual campaign concerts naman ay nagbubuklod sa mga supporters gamit ang spatial sound, multilingual karaoke, at malinaw na nakatatak na AI performers, habang madaling nakakalipat ang audience mula sa aliw patungo sa malalim na paliwanag ng mga polisiya.",
+        caption:
+          "Exhibit 1.5 — Spatial political broadcasting and interactive virtual campaign concert ecosystem.",
+      },
+      {
+        id: "global-ph-regional-immersive-media",
+        title: "AI-Powered Regional Folklore & Holographic P-Pop",
+        subtitle:
+          "Pandaigdigang Pagkilala sa Wikang Rehiyonal at Mitolohiyang Pilipino",
+        date: "c. 2026–Future",
+        image: "/images/ph-hologram-folklore-media.jpg",
+        alt: "A high-tech venue displaying holographic P-Pop performers alongside interactive 3D mythology figures and localized multi-language regional subtitles",
+        description:
+          "Philippine regional culture achieved unprecedented global reach through AI-assisted content creation, volumetric P-Pop holographic concerts, and interactive regional folklore media. Advanced AI tools bridge language barriers while preserving local nuances, allowing global audiences to immerse themselves in rich indigenous mythology, vibrant regional dialects, and futuristic musical performances across spatial digital venues.",
+        descriptionTaglish:
+          "Naging mas kilala sa buong mundo ang kultura at sining ng iba't ibang rehiyon sa Pilipinas sa tulong ng AI-assisted content creation, holographic P-Pop concerts, at interactive folklore media. Dahil sa modernong teknolohiya, madali nang naa-access ng global audience ang mga mitolohiya, katutubong wika, at musika ng bansa sa isang makabagong at immersive na paraan.",
+        caption:
+          "Exhibit 1.6 — Global integration of Philippine regional culture via AI localization and holographic media.",
+      },
+      {
+        id: "eco-friendly-smart-entertainment",
+        title: "Green Media Tech & Solar Smart Devices",
+        subtitle: "Makakalikasan at Matipid na Teknolohiya sa Tahanan",
+        date: "c. 2026–Future",
+        image: "/images/solar-smart-entertainment.jpg",
+        alt: "A solar-powered Filipino living room setup featuring an energy-efficient smart TV, low-power AI karaoke unit, and visible roof-mounted solar panel readouts",
+        description:
+          "Home entertainment systems pivoted toward sustainability with the rise of high-efficiency hardware and smart energy management. In Filipino households, solar-powered media setups and intelligent power-saving devices—capable of automatically switching off during idle periods—are becoming standard, lowering household energy costs while preserving the nation's beloved karaoke and viewing traditions.",
+        descriptionTaglish:
+          "Mas naging matipid at makakalikasan ang libangan sa bahay dahil sa mga energy-efficient na TV at karaoke systems. Sa mga tahanang Pilipino, mas lumalaganap na ang paggamit ng solar-powered entertainment systems at mga 'smart' devices na kusa at awtomatikong namamatay kapag hindi ginagamit—na nagpapababa ng gastos sa kuryente habang patuloy na nagbibigay-saya sa pamilya.",
+        caption:
+          "Exhibit 1.7 — Sustainable home entertainment integration featuring solar-powered energy-efficient electronics.",
+      },
+      {
+        id: "ai-spatial-digital-worship",
+        title: "AI-Enhanced Spatial & Immersive Devotion",
+        subtitle: "Metaverse Mass at Interaktibong Pagsamba sa Henerasyong AI",
+        date: "c. 2026–Future",
+        image: "/images/spatial-digital-worship.jpg",
+        alt: "A family wearing lightweight AR glasses sitting in a living room, participating in a 3D room-scale church service with spatial choir audio and real-time Tagalog and regional translation overlays",
+        description:
+          "Religious traditions evolved into fully immersive, spatial digital experiences powered by artificial intelligence. Believers across the globe can now gather in 3D room-scale virtual cathedrals for online worship, featuring real-time AI translation for regional dialects, interactive prayer networks, and spatial audio that recreates the acoustic acoustics of centuries-old churches from home.",
+        descriptionTaglish:
+          "Mas naging immersive at accessible ang pananampalataya sa tulong ng artificial intelligence at 3D spatial technology. Ang mga pamilya sa iba't ibang panig ng mundo ay maaari nang magkatabi na dumalo sa virtual Masses at worship services, na may real-time AI translation sa mga katutubong wika at spatial audio na nagpapadama ng tunay na kapaligiran ng simbahan mula sa sariling tahanan.",
+        caption:
+          "Exhibit 1.11 — Room-scale spatial worship and AI-assisted global religious services.",
       },
     ],
     timeline: [
@@ -325,7 +413,7 @@ export const galleries: Gallery[] = [
     introTaglish:
       "Mula low-rise jeans at popped collar hanggang rebond at emo bangs — ito ang dekada ng pag-eeksperimento sa porma. Ginamit ng kabataan ang damit at accessories para ipakita kung sino sila at saang barkada sila kabilang.",
     theme: "teak",
-    artifacts: [
+    prevArtifacts: [
       {
         id: "jejemon-style",
         title: "Jejemon Streetwear Subculture",
@@ -411,7 +499,7 @@ export const galleries: Gallery[] = [
           "Exhibit 1.21 — Traditional devotional attire, Black Nazarene shirts, and sacred religious accessories.",
       },
     ],
-    hiddenArtifacts: [
+    currArtifacts: [
       {
         id: "modern-curated-aesthetic",
         title: "Curated Digital Aesthetics & Streetwear",
@@ -495,6 +583,96 @@ export const galleries: Gallery[] = [
           "Naging bahagi na rin ng modernong pananamit at e-commerce ang mga simbolong pampanampalataya. Patuloy na sikat ang mga Nazareno shirts, habang ang mga krus at rosaryo ay ibinabagay na sa modernong streetwear at madaling nabibili sa mga online shop at social media.",
         caption:
           "Exhibit 1.22 — E-commerce platforms and social media shops selling faith-themed merchandise and modern streetwear.",
+      },
+    ],
+    futureArtifacts: [
+      {
+        id: "ph-digital-sustainable-virtual-fashion",
+        title: "Digital Trends, Sustainability & Virtual Fashion",
+        subtitle: "Tradisyong Pinoy, Eco-Friendly Fashion, at Virtual Couture",
+        date: "c. 2026–Future",
+        image: "/images/ph-digital-sustainable-virtual-fashion.jpg",
+        alt: "A Filipino model wearing a modern outfit made of eco-friendly local textiles while floating AR virtual fashion overlays highlight futuristic digital patterns around the silhouette",
+        description:
+          "Filipino fashion evolves by seamlessly merging digital trends, sustainable clothing, and locally inspired designs. As virtual fashion becomes increasingly common, consumers mix eco-conscious physical garments made from indigenous textiles with augmented reality overlays and digital-only wearables for avatars and social platforms.",
+        descriptionTaglish:
+          "Nagbago ang modang Pilipino sa pamamagitan ng paghahalo ng digital trends, makakalikasan na pananamit, at mga lokal na disenyo. Habang mas dumadami ang gumagamit ng virtual fashion, pinagsasama na ng mga tao ang mga eco-friendly na damit mula sa katutubong habi at ang mga AR overlay o digital outfits para sa kanilang mga online avatars at social media.",
+        caption:
+          "Exhibit 2.2 — Integration of sustainable local fashion and interactive virtual garments.",
+      },
+      {
+        id: "social-commerce-ar-tryons",
+        title: "In-Video Social Commerce & AR Try-Ons",
+        subtitle:
+          "Direktang Pagbili sa Video, Virtual Fitting, at Cashless Checkout",
+        date: "c. 2026–Future",
+        image: "/images/social-commerce-ar-tryons.jpg",
+        alt: "A smartphone screen displaying a Filipino influencer video with interactive product tags, an AR virtual outfit preview, and a instant cashless checkout button",
+        description:
+          "Shopping becomes an integrated part of digital media as social commerce enables frictionless purchases directly within short-form videos and influencer posts. Local brands expand their online reach by implementing augmented reality (AR) virtual try-ons—allowing consumers to test fits digitally—and pairing them with seamless cashless checkouts for instant transactions.",
+        descriptionTaglish:
+          "Mas naging mabilis at direktang ang pagbili dahil pwede nang bumili nang diretso mula sa mga video at posts ng influencers. Mas malawak na ang naabot ng mga lokal na brand online sa tulong ng virtual try-ons para masubukan ang damit gamit ang AR, na kumokonekta agad sa mga cashless checkouts para sa mabilisang pagbabayad.",
+        caption:
+          "Exhibit 2.3 — Video-integrated social commerce with AR virtual try-on and instant cashless checkout.",
+      },
+      {
+        id: "smart-textile-political-apparel",
+        title: "Dynamic Smart Textiles & Mixed-Reality Political Fashion",
+        subtitle:
+          "Reusableng Smart Apparel, Digital Accessories, at AI Design Systems",
+        date: "c. 2026–Future",
+        image: "/images/smart-textile-political-fashion.jpg",
+        alt: "A political supporter wearing a reusable smart-fabric t-shirt displaying dynamic e-ink political slogans, complemented by floating mixed-reality animated digital accessories visible through smart glasses",
+        description:
+          "Political campaign apparel transformed into a sustainable, tech-enabled canvas through washable, low-power display panels woven directly into smart textiles. Wearers can dynamically update slogans, colors, and candidate support with permission, eliminating single-use campaign shirts. Integrated with mixed-reality smart glasses, supporters display animated digital accessories in physical crowds, while centralized AI design systems synchronize physical textile displays and virtual AR overlays into a unified, customizable political identity.",
+        descriptionTaglish:
+          "Naging mas makakalikasan at makabago ang campaign clothing sa tulong ng washable at low-power display panels na nakahabi sa mga damit. Pwedeng palitan ng nagtataglay ang kulay at slogan ng shirt depende sa kampanya upang mabawasan ang basurang gawa ng single-use campaign shirts. Sa pamamagitan naman ng mixed-reality glasses, nakikita ang mga animated digital accessories sa paligid ng nagtataglay, habang pinag-uugnay ng AI ang physical at virtual styles sa iisang political identity.",
+        caption:
+          "Exhibit 2.4 — Washable smart-textile campaign apparel with integrated mixed-reality digital accessories.",
+      },
+      {
+        id: "smart-heritage-textiles-ar-filipiniana",
+        title: "Smart Heritage Textiles & AR Filipiniana",
+        subtitle:
+          "Tradisyunal na Habi, Sustainable Fibers, at Digital Wearables",
+        date: "c. 2026–Future",
+        image: "/images/smart-heritage-ar-filipiniana.jpg",
+        alt: "A model wearing futuristic Filipiniana attire made from sustainable local fibers embedded with micro-threads, accented by floating AR augmented reality pattern overlays and virtual terno extensions",
+        description:
+          "Filipino fashion fuses ancestral roots with futuristic technology through smart heritage textiles, sustainable local fibers, and augmented reality (AR) Filipiniana wearables. Traditional indigenous weaving patterns are reimagined using eco-conscious natural fibers, while AR digital overlays allow wearers to project dynamic, interactive traditional motifs across both physical everyday wear and virtual environments.",
+        descriptionTaglish:
+          "Pinagsama ng modang Pilipino ang katutubong pamana at makabagong teknolohiya sa tulong ng smart heritage textiles, sustainable local fibers, at digital AR Filipiniana wearables. Ang mga tradisyunal na habi ay binubuhay gamit ang eco-friendly na materyales, habang ang mga AR overlay naman ay nagbibigay-daan upang maipakita ang mga dynamic na katutubong disenyo sa pang-araw-araw na suot at sa virtual world.",
+        caption:
+          "Exhibit 2.5 — Ancestral indigenous weaving patterns integrated with sustainable fibers and AR Filipiniana wearables.",
+      },
+      {
+        id: "ph-sustainable-fashion-2030",
+        title: "Sustainable Fashion & Circular Retailing",
+        subtitle: "Ang Pagsikat ng Sustainable Fashion sa Pilipinas",
+        date: "c. 2030",
+        image: "/images/ph-sustainable-fashion-2030.jpg",
+        alt: "Filipino shoppers browsing eco-friendly retail displays featuring upcycled clothing, secondhand ukay-ukay racks, and products made from local recycled fabrics",
+        description:
+          "By 2030, sustainable fashion becomes widespread across the Philippines as consumer habits shift toward eco-conscious choices. More Filipinos embrace secondhand shopping, recycled fabric garments, and locally made apparel. Concurrently, fashion brands adopt sustainable raw materials and circular manufacturing processes to significantly reduce textile waste and environmental impact.",
+        descriptionTaglish:
+          "Pinaigting ng taong 2030 ang pagsikat ng sustainable fashion sa Pilipinas. Mas maraming Pilipino ang bumibili ng secondhand o ukay-ukay, gumagamit ng damit na gawa sa recycled fabrics, at sumusuporta sa lokal na produkto. Ang mga fashion brand naman ay gumagamit na ng mas eco-friendly na materyales at makakalikasang paraan ng paggawa upang mabawasan ang basura.",
+        caption:
+          "Exhibit 2.6 — Widespread adoption of sustainable manufacturing, secondhand shopping, and eco-friendly local fashion in the Philippines by 2030.",
+      },
+      {
+        id: "augmented-faith-wear-smart-iconography",
+        title: "Augmented Faith Wear & Interactive Smart Iconography",
+        subtitle:
+          "AR Religious Apparel, Smart Crucifixes, at Digital Spirituality",
+        date: "c. 2026–Future",
+        image: "/images/augmented-faith-wear.jpg",
+        alt: "A person wearing a modern streetwear hoodie featuring a minimalist embroidered cross that illuminates subtle interactive AR light patterns when viewed through smart glasses",
+        description:
+          "Faith-themed fashion evolved into an immersive, tech-integrated spiritual expression. Modern streetwear blends with responsive smart fabrics and augmented reality (AR) technology, allowing wearers to project interactive scripture verses, dynamic religious iconography, and digital prayer communities around their garments via spatial devices. Smart jewelry like connected crucifix pendants and interactive rosaries sync with spiritual apps for real-time communal devotions.",
+        descriptionTaglish:
+          "Umabot sa digital at immersive na antas ang faith-themed fashion sa pamamagitan ng smart fabrics at augmented reality. Pinagsama ang modern streetwear at interactive tech kung saan ang mga damit at accessories ay nagpapakita ng mga dynamic na religious iconography, scripture verses, at virtual prayer communities sa pamamagitan ng AR devices.",
+        caption:
+          "Exhibit 2.7 — Interactive augmented reality faith wear and smart spiritual accessories for modern digital devotion.",
       },
     ],
     timeline: [
@@ -587,7 +765,7 @@ export const galleries: Gallery[] = [
     introTaglish:
       "Noong 2000s, naging bansa tayo ng mga texter. Dahil sa prepaid load at keypad phones, mas mura mag-text kaysa tumawag. Uso ang GM, textmate, at pasaload. Sa computer shop naman natin unang naranasan ang online games, chat, at social networking.",
     theme: "walnut",
-    artifacts: [
+    prevArtifacts: [
       {
         id: "keypad",
         title: "Keypad Phone & Prepaid Load",
@@ -672,7 +850,7 @@ export const galleries: Gallery[] = [
           "Exhibit 1.33 — Forwarded SMS prayer chain texts on keypad phones alongside broadcast radio and television sermons.",
       },
     ],
-    hiddenArtifacts: [
+    currArtifacts: [
       {
         id: "smartphones-and-instant-messaging",
         title: "Smartphones & Hyper-Connected Social Apps",
@@ -756,6 +934,99 @@ export const galleries: Gallery[] = [
           "Mabilis na lumipat sa internet ang mga parokya at pamayanang relihiyoso. Gumagamit na ngayon ng Facebook, YouTube, at Zoom para sa online mass at prayer groups, habang ang mga pari at mamamayan ay nagbabahagi ng mga pagninilay sa TikTok at Instagram.",
         caption:
           "Exhibit 1.34 — Digital parish livestreams on Facebook and Zoom alongside short-form faith content on TikTok and Instagram.",
+      },
+    ],
+    futureArtifacts: [
+      {
+        id: "immersive-virtual-spaces-ai-filipino-traditions",
+        title: "Immersive Virtual Spaces & AI-Powered Social Tradition",
+        subtitle:
+          "Virtual Spaces, Wearable Tech, at Pagpapanatili ng Kultural na Kaugalian",
+        date: "c. 2026–Future",
+        image: "/images/immersive-virtual-traditions.jpg",
+        alt: "Filipino families and friends interacting through immersive virtual reality spaces and wearable tech, bridging distances while celebrating traditional cultural gatherings",
+        description:
+          "Advanced artificial intelligence communication tools, immersive virtual reality spaces, and wearable technology redefine interpersonal connection while carefully preserving core Filipino social traditions like 'bayanihan' and family gatherings. Distance dissolves as spatial computing platforms enable multi-generational households separated by migration to share virtual fiestas, ancestral rituals, and real-time communal bonding with seamless emotional presence.",
+        descriptionTaglish:
+          "Pinagsama ang advanced AI communication tools, immersive virtual spaces, at wearable technology upang lumikha ng mga bagong paraan ng pakikipag-ugnayan habang pinapanatili ang mga tradisyunal na kaugaliang Pilipino tulad ng pagtitipon at bayanihan. Sa pamamagitan ng spatial computing, nagkakaroon ng paraan para sa mga pamilyang magkakalayo dahil sa migrasyon na magsama-sama sa mga virtual fiestas at selebrasyon nang may buong emosyonal na presensya.",
+        caption:
+          "Exhibit 2.8 — Immersive virtual spaces and wearable technology preserving Filipino social bonds and cultural traditions across distances.",
+      },
+      {
+        id: "digital-cashless-economy-ai-jobs",
+        title: "Cashless Economy & AI-Powered Micro-Employment",
+        subtitle:
+          "Digital Payments, Online Jobs, at Access sa Abot-Abot na Internet",
+        date: "c. 2026–Future",
+        image: "/images/cashless-economy-ai-jobs.jpg",
+        alt: "Filipino small business vendors and independent remote workers using mobile digital payment scanners and advanced AI tools on laptops connected via high-speed community internet",
+        description:
+          "The Philippine economic landscape transitions into a largely cashless ecosystem where digital transactions power both micro-businesses and everyday retail sales. Concurrently, advanced artificial intelligence tools generate new opportunities for online employment and creative digital labor, though widespread success remains heavily dependent on expanding affordable, high-speed internet access across regional communities.",
+        descriptionTaglish:
+          "Ganap nang nakabase sa digital payments ang karamihan sa mga transaksiyon at benta ng mga maliit na negosyo. Lumilikha rin ang mga makabagong AI tools ng mga bagong online na trabaho para sa mga Pilipino, ngunit nakasalalay pa rin ito sa pagkakaroon ng abot-kayang internet para sa lahat.",
+        caption:
+          "Exhibit 2.9 — Cashless micro-business transactions and AI-driven digital employment enabled by accessible internet infrastructure.",
+      },
+      {
+        id: "audited-civic-ai-public-information",
+        title: "Audited Personal Civic AI & Integrated Public Information",
+        subtitle:
+          "Civic AI, Integrated Budgets, at Transparenteng Public Information",
+        date: "c. 2026–Future",
+        image: "/images/audited-civic-ai.jpg",
+        alt: "A Filipino citizen viewing an interactive holographic simulation on a device interface showing tracked campaign promises, legislative voting records, and audited budget allocations",
+        description:
+          "An independently audited personal civic AI system empowers citizens to rigorously examine competing political proposals through an integrated public-information network. By connecting political campaign promises directly to official budgets, historical voting records, and real-time implementation updates, the platform uses interactive simulations to project possible local community impacts. Authenticated records carry traceable digital credentials, ensuring transparency while clearly marking uncertain claims and gaps in verifiable evidence.",
+        descriptionTaglish:
+          "Isang independently audited personal civic AI ang tumutulong sa mga mamamayan na suriin ang mga panukalang pulitikal sa pamamagitan ng integrated public-information system. Iniuugnay nito ang mga campaign promises sa mga opisyal na badyet, voting records, at implementation updates, at gumagamit ng interactive simulations upang ipaliwanag ang epekto sa lokal na komunidad habang malinaw na minamarkahan ang mga kulang na ebidensya.",
+        caption:
+          "Exhibit 2.10 — Independently audited civic AI tracking campaign commitments, budgets, and local community impacts.",
+      },
+      {
+        id: "ai-dialect-translators-holographic-museums",
+        title:
+          "Real-Time AI Dialect Translators & Holographic Heritage Museums",
+        subtitle:
+          "AI Dialect Translation, Holographic Museums, at Cultural Preservation",
+        date: "c. 2026–Future",
+        image: "/images/ai-dialect-holographic-museums.jpg",
+        alt: "Filipino visitors experiencing an interactive holographic heritage museum while using real-time AI spatial audio translation earpieces to connect across different regional dialects",
+        description:
+          "Indigenous Philippine traditions and regional heritage are safeguarded and celebrated through cutting-edge technological innovations. Real-time AI dialect translators bridge linguistic gaps across diverse ethnolinguistic groups, while holographic heritage museums bring ancestral history, oral epics, and local folklore to life. Immersive language applications empower younger generations to learn indigenous mother tongues, fostering seamless cross-regional cultural exchange and deep-rooted preservation.",
+        descriptionTaglish:
+          "Pinoprotektahan at ipinagdiriwang ang mga katutubong tradisyon at rehiyunal na pamana ng Pilipinas sa tulong ng mga makabagong teknolohiya. Ang real-time AI dialect translators ay nag-uugnay sa iba't ibang wikang katutubo, habang ang mga holographic heritage museums naman ay nagpapakita ng kasaysayan at mga epiko sa mas buhay na paraan. Tinutulungan din ng mga immersive language apps ang mga kabataan na matutunan ang mga katutubong wika para sa mas malalim na cultural exchange.",
+        caption:
+          "Exhibit 2.11 — Real-time AI dialect translators and holographic heritage museums preserving indigenous Philippine traditions.",
+      },
+      {
+        id: "ai-pollution-monitoring-flood-forecasting",
+        title: "AI Pollution Monitoring, Flood Forecasting & Waste Management",
+        subtitle:
+          "AI Pollution Monitoring, Flood Forecasting, at E-Waste Reduction",
+        date: "c. 2026–Future",
+        image: "/images/ai-pollution-flood-management.jpg",
+        alt: "Filipino communities and local officials using mobile apps connected to smart environmental sensors to monitor real-time air/water pollution metrics and early flood forecasting data",
+        description:
+          "Artificial intelligence, smart IoT sensors, and mobile applications empower Filipinos to actively monitor environmental pollution, forecast floods with high precision, and optimize waste management across urban and rural districts. Social media continues to serve as a powerful catalyst for grassroots environmental action and community mobilization, while improved recycling programs and specialized collection initiatives help mitigate the growing crisis of electronic waste (e-waste).",
+        descriptionTaglish:
+          "Tinutulungan ng artificial intelligence, smart sensors, at mobile apps ang mga Pilipino na subaybayan ang polusyon, mag-forecast ng baha, at pamahalaan ang basura. Patuloy na naging mabisang kasangkapan ang social media para sa environmental action, habang ang mga pinahusay na recycling programs ay nakatutulong din upang mabawasan ang e-waste.",
+        caption:
+          "Exhibit 2.12 — Smart sensors, AI flood forecasting, and digital waste management systems driven by community-led social media initiatives.",
+      },
+      {
+        id: "spatial-parishes-ai-spiritual-guidance",
+        title: "Spatial Parishes & AI-Powered Spiritual Guidance",
+        subtitle:
+          "Immersive Virtual Parishes, AI Confessors, at Spatial Devotions",
+        date: "c. 2026–Future",
+        image: "/images/spatial-parishes-ai-faith.jpg",
+        alt: "A person wearing spatial computing mixed-reality glasses participating in a holographic church service with virtual parishioners and interactive spiritual avatars",
+        description:
+          "Digital parishes evolve into fully immersive spatial environments where believers worldwide gather in holographic cathedrals for synchronized religious services, virtual novenas, and communal fellowship. Clergy leverage advanced AI assistants to coordinate multi-lingual parishioner outreach, manage community welfare networks, and provide personalized spiritual counseling and scripture reflections across augmented reality platforms.",
+        descriptionTaglish:
+          "Ang mga digital parish ay naging mga immersive spatial environment kung saan ang mga mananampalataya ay nagtitipon sa mga holographic cathedral para sa mga sabay-sabay na misa, novena, at pagtitipon. Gumagamit na ang mga pari ng AI assistants para sa mas maayos na outreach, pag-abot sa mga komunidad, at pagbibigay ng gabay espirituwal sa pamamagitan ng augmented reality platforms.",
+        caption:
+          "Exhibit 2.13 — Holographic spatial parishes and AI-assisted spiritual guidance platforms connecting global congregations.",
       },
     ],
     timeline: [

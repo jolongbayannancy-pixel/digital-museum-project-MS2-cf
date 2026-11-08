@@ -105,7 +105,7 @@ export function GalleryDoor({ gallery }: { gallery: Gallery }) {
         >
           <div className="relative h-[22rem] overflow-hidden rounded-t-full sm:h-[26rem] lg:h-[28rem]">
             <Image
-              src={gallery.artifacts[0].image}
+              src={gallery.prevArtifacts[0].image}
               alt=""
               fill
               sizes="240px"
