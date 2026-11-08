@@ -72,7 +72,6 @@ export function ArtifactExhibit({
           : 'scale-100 opacity-95'
       )}
     >
-      {/* Image Figure */}
       <figure className='relative'>
         <div aria-hidden="true" className="spotlight absolute -inset-x-8 -top-16 h-72" />
         <div className={cn(
@@ -97,7 +96,6 @@ export function ArtifactExhibit({
         </figcaption>
       </figure>
 
-      {/* Text Card with rigid structural height */}
       <div className={cn(
         "border border-border bg-card p-6 text-card-foreground shadow-[0_12px_30px_rgba(0,0,0,0.25)] md:p-7 flex flex-col justify-between h-[420px] md:h-[450px] transition-all duration-700 ease-out",
         isHovered ? "border-gold/50 shadow-[0_15px_40px_rgba(0,0,0,0.3)]" : ""
@@ -132,7 +130,6 @@ export function ArtifactExhibit({
             )}
           </div>
 
-          {/* Locked height text block container */}
           <div 
             key={`${activeArtifact.id}-text-${currentIndex}`}
             className="mt-4 h-[320px] overflow-y-auto pr-1 transition-all duration-500 ease-in-out animate-in fade-in"

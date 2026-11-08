@@ -12,14 +12,17 @@ export function PastPresent({ comparisons, theme }: { comparisons: Comparison[];
           <caption className="sr-only">Comparison of popular culture in 2000–2010 and today</caption>
           <thead className="hidden bg-primary text-primary-foreground md:table-header-group">
             <tr>
-              <th scope="col" className="w-1/5 px-6 py-4 font-serif text-lg font-semibold">
+              <th scope="col" className="w-1/4 px-6 py-4 font-serif text-lg font-semibold">
                 Aspect
               </th>
-              <th scope="col" className="px-6 py-4 font-serif text-lg font-semibold">
+              <th scope="col" className="w-1/4 px-6 py-4 font-serif text-lg font-semibold">
                 Noon <span className="font-sans text-xs font-normal opacity-75">(2000–2010)</span>
               </th>
-              <th scope="col" className="px-6 py-4 font-serif text-lg font-semibold">
+              <th scope="col" className="w-1/4 px-6 py-4 font-serif text-lg font-semibold">
                 Ngayon <span className="font-sans text-xs font-normal opacity-75">(Today)</span>
+              </th>
+              <th scope="col" className="w-1/4 px-6 py-4 font-serif text-lg font-semibold">
+                Bukas <span className="font-sans text-xs font-normal opacity-75">(Future)</span>
               </th>
             </tr>
           </thead>
@@ -35,11 +38,17 @@ export function PastPresent({ comparisons, theme }: { comparisons: Comparison[];
                   </span>
                   {row.past}
                 </td>
-                <td className="px-6 pt-2 pb-5 leading-relaxed md:py-5">
+                <td className="px-6 py-2 leading-relaxed md:py-5">
                   <span className="mb-1 block text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gold md:hidden">
                     Ngayon
                   </span>
                   {row.present}
+                </td>
+                <td className="px-6 pt-2 pb-5 leading-relaxed md:py-5">
+                  <span className="mb-1 block text-[0.65rem] font-semibold uppercase tracking-[0.25em] text-gold md:hidden">
+                    Bukas
+                  </span>
+                  {row.future}
                 </td>
               </tr>
             ))}

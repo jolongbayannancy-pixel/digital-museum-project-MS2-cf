@@ -24,6 +24,7 @@ export type Comparison = {
   aspect: string;
   past: string;
   present: string;
+  future: string;
 };
 
 export type Source = {
@@ -133,7 +134,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Telebisyon ang pangunahing daan upang ipahatid ang kaalaman tungkol sa kalikasan sa pamamagitan ng mga balita, dokumentaryo, at public service announcements. Tinuruan nito ang mga pamilya tungkol sa tamang pagtatapon ng basura, pagrerecycle, at pangangalaga sa kapaligiran.",
         caption:
-          "Exhibit 1.7 — Television-led environmental public service announcements and educational programming.",
+          "Exhibit 1.5 — Television-led environmental public service announcements and educational programming.",
       },
       {
         id: "broadcast-devotion-and-fiestas",
@@ -147,7 +148,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Magkasama ang saya ng pagtitipon at ang pananampalataya sa tahanan. Ang mga fiesta at Pasko ay punong-puno ng videoke at kantahan, habang ang mga misa at Lenten specials naman sa telebisyon ang nagdadala ng debosyon sa loob ng sala.",
         caption:
-          "Exhibit 1.9 — Traditional fiesta videoke singing and broadcast TV religious specials.",
+          "Exhibit 1.6 — Traditional fiesta videoke singing and broadcast TV religious specials.",
       },
     ],
     currArtifacts: [
@@ -163,7 +164,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Naging mas moderno ang panonood at pakikinig nang lumipat ang media sa internet. Mula sa lumang cable connection at DVD rentals, naging digital streaming na ang lahat. Ngayon, ang mga palabas, kanta, at maging karaoke songs ay madali nang naa-access gamit ang monthly subscriptions tulad ng Netflix, YouTube Premium, at Spotify.",
         caption:
-          "Exhibit 1.2 — Digital media streaming and subscription entertainment setup.",
+          "Exhibit 1.7 — Digital media streaming and subscription entertainment setup.",
       },
       {
         id: "smart-karaoke",
@@ -173,11 +174,11 @@ export const galleries: Gallery[] = [
         image: "/images/smart-karaoke.jpg",
         alt: "A modern portable Bluetooth microphone with built-in speakers resting next to a smart TV displaying a karaoke app interface",
         description:
-          "Bulky videoke cabinets gave way to sleek, highly accessible technology as karaoke moved into the digital age. Portable Bluetooth microphones, smart TVs, and mobile sing-along apps allow people to turn any room into a instant stage without needing physical songbooks or coin slots.",
+          "Bulky videoke cabinets gave way to sleek, highly accessible technology as karaoke moved into the digital age. Portable Bluetooth microphones, smart TVs, and mobile sing-along apps allow people to turn any room into an instant stage without needing physical songbooks or coin slots.",
         descriptionTaglish:
           "Hindi na kailangan ng mabigat na videoke cabinet para mag-kantahan. Dahil sa mga portable Bluetooth microphone, smart TV, at online sing-along apps, kahit sino ay pwedeng mag-karaoke kahit saan at kahit kailan nang walang dalang songbook o barya.",
         caption:
-          "Exhibit 1.3 — Modern portable Bluetooth microphone and smart karaoke setup.",
+          "Exhibit 1.8 — Modern portable Bluetooth microphone and smart karaoke setup.",
       },
       {
         id: "digital-streaming-shift",
@@ -191,7 +192,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Pinalitan ng mga on-demand streaming platform at smart-karaoke apps ang mga lumang paraan ng panonood at pagkanta. Dahil dito, naging mas personal at mas madaling ma-access ang libangan saan man at kailan man gustuhin.",
         caption:
-          "Exhibit 1.6 — Modern personalized media consumption through mobile streaming and smart apps.",
+          "Exhibit 1.9 — Modern personalized media consumption through mobile streaming and smart apps.",
       },
       {
         id: "digital-politics-and-karaoke-culture",
@@ -205,7 +206,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Kahit na nagbabalita pa rin ang telebisyon tungkol sa eleksyon, mas lumawak ang kampanya sa online platforms. Ang mga political parody, video clips, at trending karaoke songs ay mabilis nang kumakalat sa internet, na nagpapakita kung paano nagkahalo ang libangan at pulitika sa modernong kultura.",
         caption:
-          "Exhibit 1.5 — Social media streaming and viral political entertainment culture.",
+          "Exhibit 1.10 — Social media streaming and viral political entertainment culture.",
       },
       {
         id: "digital-climate-action",
@@ -219,7 +220,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Mas lumawak ang kampanya para sa kalikasan dahil sa internet. Bukod sa telebisyon, ang mga online documentary, YouTube videos, at content sa social media ay mabilis nang nagpapakalat ng kaalaman tungkol sa climate change at mga paraan ng pamumuhay nang mas sustainable.",
         caption:
-          "Exhibit 1.8 — Social media streams and digital content dedicated to climate awareness.",
+          "Exhibit 1.11 — Social media streams and digital content dedicated to climate awareness.",
       },
       {
         id: "digital-worship-and-streaming",
@@ -233,7 +234,7 @@ export const galleries: Gallery[] = [
         descriptionTaglish:
           "Lumipat din sa digital space ang mga gawaing pananampalataya. May mga online mass at livestreamed novena na sa internet, habang ang mga worship songs at carols sa YouTube at smart karaoke apps ay madali nang ma-access at makantahan anumang oras.",
         caption:
-          "Exhibit 1.10 — Livestreamed religious services and digital worship song streaming.",
+          "Exhibit 1.12 — Livestreamed religious services and digital worship song streaming.",
       },
     ],
     futureArtifacts: [
@@ -241,144 +242,154 @@ export const galleries: Gallery[] = [
         id: "ai-karaoke-systems",
         title: "AI-Powered Karaoke Systems",
         subtitle: "Ang Bagong Mukha ng Pambansang Libangan",
-        date: "c. 2024–Present",
-        image: "/images/ai-karaoke-systems.jpg",
+        date: "c. 2030",
+        image: "/images/future1.jpg",
         alt: "A lively family gathering around a smart AI karaoke system displaying personalized song recommendations, interactive voice visuals, and virtual duet avatars on a large screen",
         description:
           "Interactive home entertainment reached a new milestone with the integration of artificial intelligence into traditional singing setups. Moving beyond simple pitch correction and static song lists, modern AI karaoke systems deliver personalized song recommendations tailored to users' vocal ranges, enable seamless virtual duets, and create highly interactive singing experiences for families and friends gathering together.",
         descriptionTaglish:
           "Mas naging dynamic at interactive ang pambansang libangan sa pagdating ng artificial intelligence sa karaoke setups. Hindi na lang ito basta simpleng lyrics screen at minus-one; ngayon, ang mga AI karaoke systems ay nagbibigay na ng personalized song recommendations batay sa boses ng kumakanta, virtual duets, at interactive features na mas nagpapasaya sa bonding ng pamilya at magkakaibigan.",
         caption:
-          "Exhibit 1.3 — Next-generation AI karaoke setup featuring interactive singing experiences and personalized recommendations.",
+          "Exhibit 1.13 — Next-generation AI karaoke setup featuring interactive singing experiences and personalized recommendations.",
       },
       {
         id: "ai-monetized-karaoke-streaming",
         title: "Subscription-Based & AI-Driven Entertainment",
         subtitle: "Pinagsamang Streaming Bundles at AI Karaoke",
-        date: "c. 2026–Present",
-        image: "/images/ai-karaoke-streaming-bundle.jpg",
+        date: "c. 2030",
+        image: "/images/future2.jpg",
         alt: "A modern home media interface featuring bundled streaming packages alongside a dedicated AI karaoke app with real-time song recommendations and creator tipping features",
         description:
           "The modern digital entertainment ecosystem thrives on tiered subscription bundles, direct creator monetization, and specialized AI-driven applications. Beyond standard video and music streaming, interactive experiences like home karaoke have transitioned into subscription apps, leveraging artificial intelligence to analyze vocal profiles, curated personalized song selections, and seamlessly integrate into home entertainment platforms.",
         descriptionTaglish:
           "Patuloy ang pag-unlad ng digital entertainment gamit ang mga paid streaming bundles, creator income, at AI-driven apps. Hindi na lang basta palabas o musika ang kasama sa subscriptions; maging ang karaoke ay naging paid app na rin na gumagamit ng AI para magrekomenda ng tamang kanta batay sa boses at trip ng kumakanta, na mas nagpapadali sa bonding sa bahay.",
         caption:
-          "Exhibit 1.4 — Integrated streaming subscription model showcasing AI-curated karaoke software.",
+          "Exhibit 1.14 — Integrated streaming subscription model showcasing AI-curated karaoke software.",
       },
       {
         id: "immersive-political-broadcasting",
         title: "Spatial Politics & Immersive Campaigns",
         subtitle: "3D Debates, Virtual Concerts, at Interaktibong Pulitika",
-        date: "c. 2026–Future",
-        image: "/images/spatial-political-campaign.jpg",
+        date: "c. 2030",
+        image: "/images/future3.jpg",
         alt: "A room-scale 3D hologram setup displaying candidates at a political debate alongside floating interactive policy evidence cards and a crowd engaged in a virtual campaign concert",
         description:
           "Political engagement evolved beyond 2D screens into room-scale, three-dimensional spatial experiences where voters feel directly present at debates and can examine interactive evidence in real time alongside candidates. Virtual campaign concerts bring remote supporters together into shared digital venues featuring spatial audio, synchronized multilingual karaoke, and transparently labeled AI performers. Viewers can seamlessly transition between live entertainment and interactive breakdowns of the policies backing each campaign message.",
         descriptionTaglish:
           "Mas naging personal at immersive ang politika sa pagpasok ng room-scale 3D experiences, kung saan nararamdaman ng mga botante na naroon sila sa mismong debate habang sinusuri ang mga interaktibong ebidensya sa tabi ng mga kandidato. Ang mga virtual campaign concerts naman ay nagbubuklod sa mga supporters gamit ang spatial sound, multilingual karaoke, at malinaw na nakatatak na AI performers, habang madaling nakakalipat ang audience mula sa aliw patungo sa malalim na paliwanag ng mga polisiya.",
         caption:
-          "Exhibit 1.5 — Spatial political broadcasting and interactive virtual campaign concert ecosystem.",
+          "Exhibit 1.15 — Spatial political broadcasting and interactive virtual campaign concert ecosystem.",
       },
       {
         id: "global-ph-regional-immersive-media",
         title: "AI-Powered Regional Folklore & Holographic P-Pop",
         subtitle:
           "Pandaigdigang Pagkilala sa Wikang Rehiyonal at Mitolohiyang Pilipino",
-        date: "c. 2026–Future",
-        image: "/images/ph-hologram-folklore-media.jpg",
+        date: "c. 2030",
+        image: "/images/future4.jpg",
         alt: "A high-tech venue displaying holographic P-Pop performers alongside interactive 3D mythology figures and localized multi-language regional subtitles",
         description:
           "Philippine regional culture achieved unprecedented global reach through AI-assisted content creation, volumetric P-Pop holographic concerts, and interactive regional folklore media. Advanced AI tools bridge language barriers while preserving local nuances, allowing global audiences to immerse themselves in rich indigenous mythology, vibrant regional dialects, and futuristic musical performances across spatial digital venues.",
         descriptionTaglish:
           "Naging mas kilala sa buong mundo ang kultura at sining ng iba't ibang rehiyon sa Pilipinas sa tulong ng AI-assisted content creation, holographic P-Pop concerts, at interactive folklore media. Dahil sa modernong teknolohiya, madali nang naa-access ng global audience ang mga mitolohiya, katutubong wika, at musika ng bansa sa isang makabagong at immersive na paraan.",
         caption:
-          "Exhibit 1.6 — Global integration of Philippine regional culture via AI localization and holographic media.",
+          "Exhibit 1.16 — Global integration of Philippine regional culture via AI localization and holographic media.",
       },
       {
         id: "eco-friendly-smart-entertainment",
         title: "Green Media Tech & Solar Smart Devices",
         subtitle: "Makakalikasan at Matipid na Teknolohiya sa Tahanan",
-        date: "c. 2026–Future",
-        image: "/images/solar-smart-entertainment.jpg",
+        date: "c. 2030",
+        image: "/images/future5.jpg",
         alt: "A solar-powered Filipino living room setup featuring an energy-efficient smart TV, low-power AI karaoke unit, and visible roof-mounted solar panel readouts",
         description:
           "Home entertainment systems pivoted toward sustainability with the rise of high-efficiency hardware and smart energy management. In Filipino households, solar-powered media setups and intelligent power-saving devices—capable of automatically switching off during idle periods—are becoming standard, lowering household energy costs while preserving the nation's beloved karaoke and viewing traditions.",
         descriptionTaglish:
           "Mas naging matipid at makakalikasan ang libangan sa bahay dahil sa mga energy-efficient na TV at karaoke systems. Sa mga tahanang Pilipino, mas lumalaganap na ang paggamit ng solar-powered entertainment systems at mga 'smart' devices na kusa at awtomatikong namamatay kapag hindi ginagamit—na nagpapababa ng gastos sa kuryente habang patuloy na nagbibigay-saya sa pamilya.",
         caption:
-          "Exhibit 1.7 — Sustainable home entertainment integration featuring solar-powered energy-efficient electronics.",
+          "Exhibit 1.17 — Sustainable home entertainment integration featuring solar-powered energy-efficient electronics.",
       },
       {
         id: "ai-spatial-digital-worship",
         title: "AI-Enhanced Spatial & Immersive Devotion",
         subtitle: "Metaverse Mass at Interaktibong Pagsamba sa Henerasyong AI",
-        date: "c. 2026–Future",
-        image: "/images/spatial-digital-worship.jpg",
+        date: "c. 2030",
+        image: "/images/future6.jpg",
         alt: "A family wearing lightweight AR glasses sitting in a living room, participating in a 3D room-scale church service with spatial choir audio and real-time Tagalog and regional translation overlays",
         description:
-          "Religious traditions evolved into fully immersive, spatial digital experiences powered by artificial intelligence. Believers across the globe can now gather in 3D room-scale virtual cathedrals for online worship, featuring real-time AI translation for regional dialects, interactive prayer networks, and spatial audio that recreates the acoustic acoustics of centuries-old churches from home.",
+          "Religious traditions evolved into fully immersive, spatial digital experiences powered by artificial intelligence. Believers across the globe can now gather in 3D room-scale virtual cathedrals for online worship, featuring real-time AI translation for regional dialects, interactive prayer networks, and spatial audio that recreates the acoustics of centuries-old churches from home.",
         descriptionTaglish:
           "Mas naging immersive at accessible ang pananampalataya sa tulong ng artificial intelligence at 3D spatial technology. Ang mga pamilya sa iba't ibang panig ng mundo ay maaari nang magkatabi na dumalo sa virtual Masses at worship services, na may real-time AI translation sa mga katutubong wika at spatial audio na nagpapadama ng tunay na kapaligiran ng simbahan mula sa sariling tahanan.",
         caption:
-          "Exhibit 1.11 — Room-scale spatial worship and AI-assisted global religious services.",
+          "Exhibit 1.18 — Room-scale spatial worship and AI-assisted global religious services.",
       },
     ],
     timeline: [
       {
         year: "c. 2000–2003",
-        text: "CRT televisions and coin-operated videoke cabinets become fixed centerpieces of Filipino living rooms and neighborhood celebrations, while TV news and political campaign jingles dictate election participation.",
+        text: "CRT televisions and coin-operated videoke cabinets become fixed centerpieces of Filipino living rooms and neighborhood celebrations, establishing shared household entertainment (Artifact 1 & 2).",
       },
       {
         year: "c. 2004–2008",
-        text: "Primetime teleseryes become daily family rituals, while broadcast television acts as the primary medium for environmental PSAs and religious broadcasts such as Holy Week specials and Sunday masses.",
+        text: "Primetime teleseryes become daily family rituals, while broadcast television acts as the primary medium for family bonding and shared viewing routines (Artifact 3).",
       },
       {
         year: "c. 2009–2015",
-        text: "Filipino videoke culture gains global recognition. Broadcast television continues to anchor nationwide political discourse, environmental awareness, and community fiesta traditions.",
+        text: "Filipino videoke culture gains global recognition. Broadcast television continues to anchor nationwide political campaigns, discourse, and local election engagement (Artifact 4).",
       },
       {
         year: "c. 2016–2020",
-        text: "The media landscape begins shifting toward mobile smartphones, subscription streaming services like Netflix and Spotify, smart karaoke apps, and livestreamed online masses.",
+        text: "The media landscape shifts toward broadcast environmental awareness programs, public service announcements, and investigative climate documentaries (Artifact 5).",
       },
       {
         year: "c. 2021–2026",
-        text: "On-demand streaming and portable Bluetooth karaoke mics replace bulky setups, while viral political parodies and social media influencers drive climate advocacy and modern digital devotion.",
+        text: "Religious traditions, patron saint fiestas, Sunday masses, and community celebrations bridge traditional TV devotions with modern digital access (Artifact 6).",
+      },
+      {
+        year: "c. 2026–Future",
+        text: "Entertainment and cultural practices evolve into next-generation AI karaoke systems, spatial 3D political debates, sustainable green media tech, and holographic virtual worship across all artifacts.",
       },
     ],
     significance:
-      "Television and karaoke served as the defining social technologies of Filipino life, bridging family bonding, political communication, environmental education, and spiritual devotion. In the 2000s, living rooms centered around heavy CRT TVs and neighborhood videoke cabinets that fostered collective participation and pakikisama. As technology shifted into portable screens, smart karaoke setups, and on-demand streaming, these core community practices evolved into personalized, digital experiences available anytime and anywhere.",
+      "Television and karaoke served as the defining social technologies of Filipino life, bridging family bonding, political communication, environmental education, and spiritual devotion. In the 2000s, living rooms centered around heavy CRT TVs and neighborhood videoke cabinets that fostered collective participation and pakikisama. As technology shifted into portable screens, smart karaoke setups, and on-demand streaming, and onward to AI-driven spatial systems and green media technology, these core community practices continue to evolve while preserving Filipino traditions.",
     significanceTaglish:
-      "Hindi lang simpleng libangan ang TV at karaoke — naging gabay at daluyan din ito ng pulitika, kaalaman sa kalikasan, at pananampalataya ng mga Pilipino. Noong 2000s, ang CRT TV at hulugang videoke sa sala at kanto ang nagbuklod sa pamilya at kapitbahayan sa pamamagitan ng pakikisama. Ngayong lumipat na ang lahat sa portable smart screens at online streaming, patuloy pa ring buhay ang ating mga tradisyon at pagkakaisa sa mas modernong paraan.",
+      "Hindi lang simpleng libangan ang TV at karaoke — naging gabay at daluyan din ito ng pulitika, kaalaman sa kalikasan, at pananampalataya ng mga Pilipino. Noong 2000s, ang CRT TV at hulugang videoke sa sala at kanto ang nagbuklod sa pamilya at kapitbahayan. Ngayong patuloy na umuusbong ang AI-powered systems, spatial media, at makakalikasang teknolohiya, patuloy pa ring buhay at lumalawak ang ating mga tradisyon sa mas modernong paraan.",
     comparisons: [
       {
-        aspect: "Primary Viewing Setup",
+        aspect: "Primary Viewing Setup (Artifact 1)",
         past: "One CRT TV sitting on a decorated wooden cabinet, watched together in the sala during scheduled broadcast airtimes.",
-        present:
-          "Smart TVs, laptops, and smartphones streaming content on demand, often tailored to individual preferences.",
+        present: "Smart TVs, laptops, and smartphones streaming content on demand, often tailored to individual preferences.",
+        future: "Room-scale spatial displays, AI-curated home hubs, and immersive volumetric media setups.",
       },
       {
-        aspect: "Karaoke & Sing-Along System",
+        aspect: "Karaoke & Sing-Along System (Artifact 2)",
         past: "Coin-operated videoke cabinets with physical songbooks and wired microphones at fiestas and gatherings.",
-        present:
-          "Portable Bluetooth microphones, smart TV sing-along apps, and streaming lyric videos on mobile devices.",
+        present: "Portable Bluetooth microphones, smart TV sing-along apps, and streaming lyric videos on mobile devices.",
+        future: "AI-powered vocal coaching platforms, virtual duet avatars, and real-time personalized harmonic arrangements.",
       },
       {
-        aspect: "Political Communication & Campaigning",
+        aspect: "Primetime & Family Viewing Rituals (Artifact 3)",
+        past: "Evening teleseryes and shared daily family viewing routines centered around the living room television.",
+        present: "On-demand streaming platforms, personalized watchlists, and mobile viewing anytime, anywhere.",
+        future: "Interactive streaming environments, personalized character branching, and immersive co-viewing avatars.",
+      },
+      {
+        aspect: "Political Communication & Campaigning (Artifact 4)",
         past: "Televised political ads, broadcast news debates, and traditional campaign songs played at local rallies.",
-        present:
-          "Viral political karaoke parodies, social media livestreams, and short-form video campaigns across digital platforms.",
+        present: "Viral political karaoke parodies, social media livestreams, and short-form video campaigns across digital platforms.",
+        future: "3D holographic debates, room-scale virtual town halls, and transparently labeled AI-assisted campaign messaging.",
       },
       {
-        aspect: "Environmental Awareness & PSAs",
+        aspect: "Environmental Awareness & PSAs (Artifact 5)",
         past: "Government PSAs and investigative environmental documentaries aired on traditional broadcast television.",
-        present:
-          "Web documentaries, social media sustainability content, and YouTube educational channels driving climate advocacy.",
+        present: "Web documentaries, social media sustainability content, and YouTube educational channels driving climate advocacy.",
+        future: "Solar-powered smart media hardware, energy-efficient IoT home devices, and real-time carbon-tracked streaming networks.",
       },
       {
-        aspect: "Religious Devotion & Festivities",
+        aspect: "Religious Devotion & Festivities (Artifact 6)",
         past: "Broadcast Sunday masses, TV Lenten specials, and community videoke carols during Christmas and fiestas.",
-        present:
-          "Livestreamed online masses, mobile novena apps, and on-demand worship playlists on streaming services.",
+        present: "Livestreamed online masses, mobile novena apps, and on-demand worship playlists on streaming services.",
+        future: "Metaverse cathedrals, room-scale spatial audio worship, and real-time multi-language AI translation for global faith communities.",
       },
     ],
     sources: [
@@ -394,8 +405,8 @@ export const galleries: Gallery[] = [
       },
       {
         citation:
-          "Digital Entertainment & Media Consumption Reports (2016–2026).",
-        note: "Industry trends detailing the shift from broadcast TV and analog videoke to mobile streaming, smart karaoke apps, and online digital devotion.",
+          "Digital Entertainment, Streaming, & Emerging AI Media Reports (2016–2026+).",
+        note: "Industry trends detailing the evolution from broadcast TV and analog videoke to mobile streaming, smart apps, and futuristic spatial technologies.",
       },
     ],
   },
@@ -504,7 +515,7 @@ export const galleries: Gallery[] = [
         id: "modern-curated-aesthetic",
         title: "Curated Digital Aesthetics & Streetwear",
         subtitle: "Modern Aesthetics at TikTok Trends",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/aesthetic.jpg",
         alt: "A youth dressed in minimal streetwear and thrifted vintage clothing posing for a social media outfit-of-the-day photo",
         description:
@@ -518,7 +529,7 @@ export const galleries: Gallery[] = [
         id: "globalized-ecommerce-fashion",
         title: "Hyper-Competitive E-Commerce & Influencer Fashion",
         subtitle: "Global E-Commerce at Influencer Trends",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/shein.jpg",
         alt: "A smartphone screen displaying an online shopping app feed with targeted fashion recommendations and social influencer promotions",
         description:
@@ -532,7 +543,7 @@ export const galleries: Gallery[] = [
         id: "multi-platform-visual-branding",
         title: "Multi-Platform Visual Branding & Social Media",
         subtitle: "Digital Image, Fashion, at Visual Branding",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/bbm-merchandise.jpg",
         alt: "A curated social media page featuring a political figure wearing campaign merch alongside followers sharing branded outfit posts",
         description:
@@ -546,7 +557,7 @@ export const galleries: Gallery[] = [
         id: "thrifted-minimalist-fits",
         title: "Thrifted & Minimalist Streetwear",
         subtitle: "Ukay-Ukay Hauls at Minimalist Fits",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/minimalist.jpg",
         alt: "A teenager sporting a minimalist outfit composed of thrifted ukay-ukay pieces, curated for social media",
         description:
@@ -560,7 +571,7 @@ export const galleries: Gallery[] = [
         id: "sustainable-fashion-and-thrifting",
         title: "Sustainable Fashion, Upcycling & Digital Thrifting",
         subtitle: "Sustainable Fashion at Upcycling Trend",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/online-selling.webp",
         alt: "A creator staging upcycled thrifted clothes for an online video shoot about eco-friendly fashion trends",
         description:
@@ -574,7 +585,7 @@ export const galleries: Gallery[] = [
         id: "faith-merch-and-modern-streetwear",
         title: "Faith-Themed Merch & Modern Expression",
         subtitle: "Religious Merch at Streetwear Trends",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/religious-merch.jpg",
         alt: "A smartphone displaying an online store selling faith-themed graphic tees and crucifix accessories styled with modern streetwear",
         description:
@@ -590,8 +601,8 @@ export const galleries: Gallery[] = [
         id: "ph-digital-sustainable-virtual-fashion",
         title: "Digital Trends, Sustainability & Virtual Fashion",
         subtitle: "Tradisyong Pinoy, Eco-Friendly Fashion, at Virtual Couture",
-        date: "c. 2026–Future",
-        image: "/images/ph-digital-sustainable-virtual-fashion.jpg",
+        date: "c. 2030",
+        image: "/images/future7.jpg",
         alt: "A Filipino model wearing a modern outfit made of eco-friendly local textiles while floating AR virtual fashion overlays highlight futuristic digital patterns around the silhouette",
         description:
           "Filipino fashion evolves by seamlessly merging digital trends, sustainable clothing, and locally inspired designs. As virtual fashion becomes increasingly common, consumers mix eco-conscious physical garments made from indigenous textiles with augmented reality overlays and digital-only wearables for avatars and social platforms.",
@@ -605,8 +616,8 @@ export const galleries: Gallery[] = [
         title: "In-Video Social Commerce & AR Try-Ons",
         subtitle:
           "Direktang Pagbili sa Video, Virtual Fitting, at Cashless Checkout",
-        date: "c. 2026–Future",
-        image: "/images/social-commerce-ar-tryons.jpg",
+        date: "c. 2030",
+        image: "/images/future8.jpg",
         alt: "A smartphone screen displaying a Filipino influencer video with interactive product tags, an AR virtual outfit preview, and a instant cashless checkout button",
         description:
           "Shopping becomes an integrated part of digital media as social commerce enables frictionless purchases directly within short-form videos and influencer posts. Local brands expand their online reach by implementing augmented reality (AR) virtual try-ons—allowing consumers to test fits digitally—and pairing them with seamless cashless checkouts for instant transactions.",
@@ -620,8 +631,8 @@ export const galleries: Gallery[] = [
         title: "Dynamic Smart Textiles & Mixed-Reality Political Fashion",
         subtitle:
           "Reusableng Smart Apparel, Digital Accessories, at AI Design Systems",
-        date: "c. 2026–Future",
-        image: "/images/smart-textile-political-fashion.jpg",
+        date: "c. 2030",
+        image: "/images/future9.jpg",
         alt: "A political supporter wearing a reusable smart-fabric t-shirt displaying dynamic e-ink political slogans, complemented by floating mixed-reality animated digital accessories visible through smart glasses",
         description:
           "Political campaign apparel transformed into a sustainable, tech-enabled canvas through washable, low-power display panels woven directly into smart textiles. Wearers can dynamically update slogans, colors, and candidate support with permission, eliminating single-use campaign shirts. Integrated with mixed-reality smart glasses, supporters display animated digital accessories in physical crowds, while centralized AI design systems synchronize physical textile displays and virtual AR overlays into a unified, customizable political identity.",
@@ -635,8 +646,8 @@ export const galleries: Gallery[] = [
         title: "Smart Heritage Textiles & AR Filipiniana",
         subtitle:
           "Tradisyunal na Habi, Sustainable Fibers, at Digital Wearables",
-        date: "c. 2026–Future",
-        image: "/images/smart-heritage-ar-filipiniana.jpg",
+        date: "c. 2030",
+        image: "/images/future10.jpg",
         alt: "A model wearing futuristic Filipiniana attire made from sustainable local fibers embedded with micro-threads, accented by floating AR augmented reality pattern overlays and virtual terno extensions",
         description:
           "Filipino fashion fuses ancestral roots with futuristic technology through smart heritage textiles, sustainable local fibers, and augmented reality (AR) Filipiniana wearables. Traditional indigenous weaving patterns are reimagined using eco-conscious natural fibers, while AR digital overlays allow wearers to project dynamic, interactive traditional motifs across both physical everyday wear and virtual environments.",
@@ -650,7 +661,7 @@ export const galleries: Gallery[] = [
         title: "Sustainable Fashion & Circular Retailing",
         subtitle: "Ang Pagsikat ng Sustainable Fashion sa Pilipinas",
         date: "c. 2030",
-        image: "/images/ph-sustainable-fashion-2030.jpg",
+        image: "/images/future11.jpg",
         alt: "Filipino shoppers browsing eco-friendly retail displays featuring upcycled clothing, secondhand ukay-ukay racks, and products made from local recycled fabrics",
         description:
           "By 2030, sustainable fashion becomes widespread across the Philippines as consumer habits shift toward eco-conscious choices. More Filipinos embrace secondhand shopping, recycled fabric garments, and locally made apparel. Concurrently, fashion brands adopt sustainable raw materials and circular manufacturing processes to significantly reduce textile waste and environmental impact.",
@@ -664,8 +675,8 @@ export const galleries: Gallery[] = [
         title: "Augmented Faith Wear & Interactive Smart Iconography",
         subtitle:
           "AR Religious Apparel, Smart Crucifixes, at Digital Spirituality",
-        date: "c. 2026–Future",
-        image: "/images/augmented-faith-wear.jpg",
+        date: "c. 2030",
+        image: "/images/future12.jpg",
         alt: "A person wearing a modern streetwear hoodie featuring a minimalist embroidered cross that illuminates subtle interactive AR light patterns when viewed through smart glasses",
         description:
           "Faith-themed fashion evolved into an immersive, tech-integrated spiritual expression. Modern streetwear blends with responsive smart fabrics and augmented reality (AR) technology, allowing wearers to project interactive scripture verses, dynamic religious iconography, and digital prayer communities around their garments via spatial devices. Smart jewelry like connected crucifix pendants and interactive rosaries sync with spiritual apps for real-time communal devotions.",
@@ -678,23 +689,27 @@ export const galleries: Gallery[] = [
     timeline: [
       {
         year: "c. 2000–2005",
-        text: "Homegrown mall brands like Bench and Penshoppe expand nationwide alongside shopping malls, while physical ukay-ukay stalls become budget shopping staples and Black Nazarene shirts anchor traditional devotional attire.",
+        text: "Homegrown mall brands like Bench and Penshoppe expand nationwide alongside shopping malls, while physical ukay-ukay stalls become budget shopping staples and Black Nazarene shirts anchor traditional devotional attire (Artifact 1 & 5).",
       },
       {
         year: "c. 2006–2010",
-        text: "Jejemon trucker hats, layered graphic tees, and Emo side-swept bangs emerge as dominant youth subcultures. Meanwhile, election candidates refine their personal image through televised political coverage.",
+        text: "Jejemon trucker hats, layered graphic tees, and Emo side-swept bangs emerge as dominant youth subcultures, while election candidates refine their personal image through televised political coverage (Artifact 2 & 3).",
       },
       {
         year: "c. 2011–2016",
-        text: "Social media networks begin reshaping fashion culture. E-commerce platforms take root in the Philippines while thrifting transitions from an economic necessity to an emerging youth aesthetic.",
+        text: "Social media networks begin reshaping fashion culture, and early e-commerce platforms take root in the Philippines while thrifting transitions from an economic necessity to an emerging youth aesthetic (Artifact 4).",
       },
       {
         year: "c. 2017–2021",
-        text: "Global fast-fashion e-commerce apps (e.g., Shein, Shopee) and influencer marketing boom. Digital campaign merchandise and visual candidate branding dominate multi-platform political strategies.",
+        text: "Global fast-fashion e-commerce apps (e.g., Shein, Shopee) and influencer marketing boom, while digital campaign merchandise and visual candidate branding dominate multi-platform political strategies (Artifact 2 & 3).",
       },
       {
         year: "c. 2022–2026",
-        text: "TikTok-driven curated aesthetics, minimalist thrifted streetwear, upcycling trends, and online faith-themed streetwear merge personal style with digital self-expression and eco-conscious thrifting.",
+        text: "TikTok-driven curated aesthetics, minimalist thrifted streetwear, upcycling trends, and online faith-themed streetwear merge personal style with digital self-expression and eco-conscious thrifting (Artifact 4, 5 & 6).",
+      },
+      {
+        year: "c. 2026–Future",
+        text: "Fashion evolves into immersive digital territory through AR virtual try-ons, smart textiles with e-ink political slogans, sustainable local heritage fibers, and augmented reality faith wear across all artifacts.",
       },
     ],
     significance:
@@ -703,34 +718,52 @@ export const galleries: Gallery[] = [
       "Ang porma at estilo ng damit ay naging salamin ng pagkatao, accessibility, subculture, at pananampalataya ng mga Pilipino. Noong 2000s, ang mga local mall brands, ukay-ukay, Jejemon at Emo style, candidate image sa telebisyon, at mga Nazareno shirt ang humubog sa pananamit. Ngayong digital era na, ang mga online shopping apps, TikTok aesthetic trends, upcycled fits, at online faith merchandise ay nagpapakita kung paano naging mas curated at sustainable ang porma ng kabataan ngayon.",
     comparisons: [
       {
-        aspect: "Retail & Shopping Environment",
+        aspect: "Retail & Shopping Environment (Artifact 1)",
         past: "Physical shopping malls with homegrown brands (Bench, Penshoppe) alongside neighborhood ukay-ukay stalls.",
         present:
           "Hyper-competitive global e-commerce apps, algorithmically targeted shop feeds, and digital thrift resales.",
+        future:
+          "Immersive social commerce platforms with instant AR virtual try-ons and decentralized digital marketplaces.",
       },
       {
-        aspect: "Youth Subcultures & Aesthetics",
+        aspect: "Youth Subcultures & Aesthetics (Artifact 2)",
         past: "Jejemon trucker hats, layered graphic tees, fitted caps, and Emo side-swept bangs born from early text/web trends.",
         present:
           "Curated digital aesthetics, minimalist streetwear, neutral tones, and TikTok-driven vintage Y2K revivals.",
+        future:
+          "Virtual-only avatar streetwear, AI-co-created digital apparel, and dynamic mixed-reality personal style layers.",
       },
       {
-        aspect: "Political Image & Campaign Styling",
+        aspect: "Political Image & Campaign Styling (Artifact 3)",
         past: "Televised candidate news appearances with signature shirt colors and groomed televised identities.",
         present:
           "Multi-platform visual branding, official digital campaign merchandise, and curated social media outfit feeds.",
+        future:
+          "Washable smart-textile e-ink political shirts and interactive mixed-reality holographic campaign supporters.",
       },
       {
-        aspect: "Thrifting & Sustainability Practice",
+        aspect: "Thrifting & Sustainability Practice (Artifact 4)",
         past: "Traditional ukay-ukay shopping driven primarily by budget considerations and practical clothing reuse.",
         present:
           "Intentional eco-friendly thrifting, content-driven thrift hauls, garment upcycling, and digital resale apps.",
+        future:
+          "Circular bio-textile economies, zero-waste smart-fiber garments, and fully traceable digital clothing passports.",
       },
       {
-        aspect: "Devotional Attire & Sacred Symbols",
+        aspect: "Sustainable Local Heritage (Artifact 5)",
+        past: "Standard mass-market garment manufacturing focused heavily on global exports and basic domestic apparel.",
+        present:
+          "Resurgence of local upcycling trends, eco-conscious streetwear brands, and online sustainable small shops.",
+        future:
+          "Smart heritage textiles integrating ancestral indigenous weaving patterns with advanced eco-friendly performance fibers.",
+      },
+      {
+        aspect: "Devotional Attire & Sacred Symbols (Artifact 6)",
         past: "Maroon Black Nazarene shirts, towels, and rosary beads worn strictly for physical religious processions and church.",
         present:
           "Faith-themed graphic tees and religious accessories integrated into modern streetwear and sold via online shops.",
+        future:
+          "Augmented reality (AR) faith wear and smart spiritual accessories projecting interactive scripture and devotions.",
       },
     ],
     sources: [
@@ -746,8 +779,8 @@ export const galleries: Gallery[] = [
       },
       {
         citation:
-          "E-Commerce & Digital Fashion Market Reports in the Philippines (2016–2026).",
-        note: "Market data detailing the growth of online retail apps, influencer aesthetics, social media political merchandise, and sustainable thrifting trends.",
+          "E-Commerce & Digital Fashion Market Reports in the Philippines (2016–2026+).",
+        note: "Market data detailing the growth of online retail apps, influencer aesthetics, social media political merchandise, sustainable thrifting, and future smart wearables.",
       },
     ],
   },
@@ -855,7 +888,7 @@ export const galleries: Gallery[] = [
         id: "smartphones-and-instant-messaging",
         title: "Smartphones & Hyper-Connected Social Apps",
         subtitle: "Era ng Smartphone at Social Messaging",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/smartphones.jpg",
         alt: "A modern smartphone screen showing active chat threads across mobile messaging apps and viral social feeds",
         description:
@@ -869,7 +902,7 @@ export const galleries: Gallery[] = [
         id: "mobile-data-and-fiber-connectivity",
         title: "Mobile Data & Fiber Connectivity",
         subtitle: "Mobile Data, High-Speed Fiber, at Personal Devices",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/mobile-data.jpg",
         alt: "A high-speed fiber optic router alongside a smartphone displaying mobile data speed test results",
         description:
@@ -883,7 +916,7 @@ export const galleries: Gallery[] = [
         id: "social-media-livestreams-and-factchecking",
         title: "Social Media, Livestreams & The Fact-Checking Era",
         subtitle: "Social Media, Livestreaming, at Fact-Checking",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/viral-socialmedia.webp",
         alt: "A smartphone screen displaying a political livestream alongside digital fact-checking labels and social media posts",
         description:
@@ -897,7 +930,7 @@ export const galleries: Gallery[] = [
         id: "hyper-connected-smartphone-era",
         title: "The Hyper-Connected Smartphone Era",
         subtitle: "Era ng Smartphone at Viral Social Apps",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/messenger.jpg",
         alt: "A modern smartphone displaying active social media interfaces from Facebook and TikTok",
         description:
@@ -911,7 +944,7 @@ export const galleries: Gallery[] = [
         id: "digital-environmental-advocacy",
         title: "Digital Environmental Advocacy",
         subtitle: "Advocacy sa Facebook, TikTok, at YouTube",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/modern-environment.jpg",
         alt: "A smartphone displaying environmental campaign feeds, infographics, and awareness videos on Facebook, TikTok, and YouTube",
         description:
@@ -925,7 +958,7 @@ export const galleries: Gallery[] = [
         id: "digital-parish-and-social-faith",
         title: "Digital Parishes & Social Media Faith",
         subtitle: "Online Mass at Faith Content sa Social Media",
-        date: "c. 2010–Present",
+        date: "c. 2016–2026",
         image: "/images/digital-faith.avif",
         alt: "A modern smartphone screen showing a livestreamed mass on Facebook and short-form reflection videos on TikTok and Instagram",
         description:
@@ -942,8 +975,8 @@ export const galleries: Gallery[] = [
         title: "Immersive Virtual Spaces & AI-Powered Social Tradition",
         subtitle:
           "Virtual Spaces, Wearable Tech, at Pagpapanatili ng Kultural na Kaugalian",
-        date: "c. 2026–Future",
-        image: "/images/immersive-virtual-traditions.jpg",
+        date: "c. 2030",
+        image: "/images/future13.jpg",
         alt: "Filipino families and friends interacting through immersive virtual reality spaces and wearable tech, bridging distances while celebrating traditional cultural gatherings",
         description:
           "Advanced artificial intelligence communication tools, immersive virtual reality spaces, and wearable technology redefine interpersonal connection while carefully preserving core Filipino social traditions like 'bayanihan' and family gatherings. Distance dissolves as spatial computing platforms enable multi-generational households separated by migration to share virtual fiestas, ancestral rituals, and real-time communal bonding with seamless emotional presence.",
@@ -957,8 +990,8 @@ export const galleries: Gallery[] = [
         title: "Cashless Economy & AI-Powered Micro-Employment",
         subtitle:
           "Digital Payments, Online Jobs, at Access sa Abot-Abot na Internet",
-        date: "c. 2026–Future",
-        image: "/images/cashless-economy-ai-jobs.jpg",
+        date: "c. 2030",
+        image: "/images/future14.jpg",
         alt: "Filipino small business vendors and independent remote workers using mobile digital payment scanners and advanced AI tools on laptops connected via high-speed community internet",
         description:
           "The Philippine economic landscape transitions into a largely cashless ecosystem where digital transactions power both micro-businesses and everyday retail sales. Concurrently, advanced artificial intelligence tools generate new opportunities for online employment and creative digital labor, though widespread success remains heavily dependent on expanding affordable, high-speed internet access across regional communities.",
@@ -972,8 +1005,8 @@ export const galleries: Gallery[] = [
         title: "Audited Personal Civic AI & Integrated Public Information",
         subtitle:
           "Civic AI, Integrated Budgets, at Transparenteng Public Information",
-        date: "c. 2026–Future",
-        image: "/images/audited-civic-ai.jpg",
+        date: "c. 2030",
+        image: "/images/future15.jpg",
         alt: "A Filipino citizen viewing an interactive holographic simulation on a device interface showing tracked campaign promises, legislative voting records, and audited budget allocations",
         description:
           "An independently audited personal civic AI system empowers citizens to rigorously examine competing political proposals through an integrated public-information network. By connecting political campaign promises directly to official budgets, historical voting records, and real-time implementation updates, the platform uses interactive simulations to project possible local community impacts. Authenticated records carry traceable digital credentials, ensuring transparency while clearly marking uncertain claims and gaps in verifiable evidence.",
@@ -988,8 +1021,8 @@ export const galleries: Gallery[] = [
           "Real-Time AI Dialect Translators & Holographic Heritage Museums",
         subtitle:
           "AI Dialect Translation, Holographic Museums, at Cultural Preservation",
-        date: "c. 2026–Future",
-        image: "/images/ai-dialect-holographic-museums.jpg",
+        date: "c. 2030",
+        image: "/images/future16.jpg",
         alt: "Filipino visitors experiencing an interactive holographic heritage museum while using real-time AI spatial audio translation earpieces to connect across different regional dialects",
         description:
           "Indigenous Philippine traditions and regional heritage are safeguarded and celebrated through cutting-edge technological innovations. Real-time AI dialect translators bridge linguistic gaps across diverse ethnolinguistic groups, while holographic heritage museums bring ancestral history, oral epics, and local folklore to life. Immersive language applications empower younger generations to learn indigenous mother tongues, fostering seamless cross-regional cultural exchange and deep-rooted preservation.",
@@ -1003,8 +1036,8 @@ export const galleries: Gallery[] = [
         title: "AI Pollution Monitoring, Flood Forecasting & Waste Management",
         subtitle:
           "AI Pollution Monitoring, Flood Forecasting, at E-Waste Reduction",
-        date: "c. 2026–Future",
-        image: "/images/ai-pollution-flood-management.jpg",
+        date: "c. 2030",
+        image: "/images/future17.jpg",
         alt: "Filipino communities and local officials using mobile apps connected to smart environmental sensors to monitor real-time air/water pollution metrics and early flood forecasting data",
         description:
           "Artificial intelligence, smart IoT sensors, and mobile applications empower Filipinos to actively monitor environmental pollution, forecast floods with high precision, and optimize waste management across urban and rural districts. Social media continues to serve as a powerful catalyst for grassroots environmental action and community mobilization, while improved recycling programs and specialized collection initiatives help mitigate the growing crisis of electronic waste (e-waste).",
@@ -1018,8 +1051,8 @@ export const galleries: Gallery[] = [
         title: "Spatial Parishes & AI-Powered Spiritual Guidance",
         subtitle:
           "Immersive Virtual Parishes, AI Confessors, at Spatial Devotions",
-        date: "c. 2026–Future",
-        image: "/images/spatial-parishes-ai-faith.jpg",
+        date: "c. 2030",
+        image: "/images/future18.jpg",
         alt: "A person wearing spatial computing mixed-reality glasses participating in a holographic church service with virtual parishioners and interactive spiritual avatars",
         description:
           "Digital parishes evolve into fully immersive spatial environments where believers worldwide gather in holographic cathedrals for synchronized religious services, virtual novenas, and communal fellowship. Clergy leverage advanced AI assistants to coordinate multi-lingual parishioner outreach, manage community welfare networks, and provide personalized spiritual counseling and scripture reflections across augmented reality platforms.",
@@ -1032,23 +1065,27 @@ export const galleries: Gallery[] = [
     timeline: [
       {
         year: "c. 2000–2005",
-        text: 'Prepaid scratch load cards and unli-text promos transform keypad phones into household necessities, establishing the Philippines as the global "SMS Capital." Forwarded SMS prayer chains become widespread.',
+        text: 'Prepaid scratch load cards and unli-text promos transform keypad phones into household necessities, establishing the Philippines as the global "SMS Capital," alongside forwarded SMS prayer chains (Artifact 1 & 6).',
       },
       {
         year: "c. 2006–2010",
-        text: "Neighborhood internet cafés flourish as portals for early social networks like Friendster and PC gaming. SMS emerges as a vital civic tool for political news and rapid movement coordination alongside TV/radio broadcasts.",
+        text: "Neighborhood internet cafés flourish as portals for early social networks like Friendster and PC gaming, while SMS serves as a vital civic tool for political news and TV/radio broadcasts (Artifact 2 & 3).",
       },
       {
         year: "c. 2011–2016",
-        text: "The telco landscape shifts toward 3G/4G mobile data and home broadband. Smartphones begin replacing keypad feature phones, transitioning personal messaging toward Facebook Messenger and instant chat apps.",
+        text: "The telco landscape shifts toward 3G/4G mobile data and home broadband. Smartphones begin replacing keypad feature phones, transitioning personal messaging toward Facebook Messenger and instant chat apps (Artifact 1 & 4).",
       },
       {
         year: "c. 2017–2021",
-        text: "High-speed fiber connectivity and widespread mobile data make internet cafés rare. Political campaigning moves to live video streams, while churches adopt Facebook and Zoom livestreams for digital masses.",
+        text: "High-speed fiber connectivity and widespread mobile data make internet cafés rare. Political campaigning moves to live video streams, while churches adopt Facebook and Zoom livestreams for digital masses (Artifact 2, 3 & 6).",
       },
       {
         year: "c. 2022–2026",
-        text: "Hyper-connected smartphone social networks (TikTok, Facebook, YouTube) dominate daily interaction, driving viral environmental campaigns, digital parish communities, and an increased need for online fact-checking.",
+        text: "Hyper-connected smartphone social networks (TikTok, Facebook, YouTube) dominate daily interaction, driving viral environmental campaigns, digital parish communities, and an increased need for online fact-checking (Artifact 4, 5 & 6).",
+      },
+      {
+        year: "c. 2026–Future",
+        text: "Communication technology expands into immersive virtual spaces, cashless micro-economies, audited personal civic AI, real-time dialect translation, smart IoT environmental monitoring, and holographic spatial parishes across all artifacts.",
       },
     ],
     significance:
@@ -1057,34 +1094,40 @@ export const galleries: Gallery[] = [
       "Malaki ang naging papel ng teknolohiya sa pagbago ng paraan ng pakikipag-usap, pulitika, kalikasan, at pananampalataya ng mga Pilipino. Noong 2000s, ang mga keypad phone, unli-text load cards, internet café, at SMS chain messages ang naging tulay sa kapwa. Ngayong era ng smartphone at fiber data, ang mga online mass, viral climate campaigns, at social media livestreams na ang nagpapatakbo ng ating komunikasyon, kaya naging mahalaga rin ang pag-fact-check at maingat na paggamit ng internet.",
     comparisons: [
       {
-        aspect: "Primary Mobile Device & Messaging",
+        aspect: "Primary Mobile Device & Messaging (Artifact 1)",
         past: "Keypad feature phones relying on prepaid scratch load cards, SMS promos, GMs, and textmates.",
-        present:
-          "Smartphones powered by mobile data and fiber connectivity using instant messaging and video chat apps.",
+        present: "Smartphones powered by mobile data and fiber connectivity using instant messaging and video chat apps.",
+        future: "Immersive spatial computing wearables, direct neural-interface links, and multi-generational virtual reality spaces.",
       },
       {
-        aspect: "Internet Access & Social Networking",
+        aspect: "Internet Access & Social Networking (Artifact 2)",
         past: "Shared desktop computers in neighborhood internet cafés accessing early platforms like Friendster.",
-        present:
-          "Personal mobile devices and home fiber internet accessing real-time feeds on Facebook, TikTok, and YouTube.",
+        present: "Personal mobile devices and home fiber internet accessing real-time feeds on Facebook, TikTok, and YouTube.",
+        future: "Ubiquitous high-speed satellite connectivity, decentralized Web3 networks, and AI-curated metaverse feeds.",
       },
       {
-        aspect: "Political Communication & Civic Mobilization",
+        aspect: "Political Communication & Civic Mobilization (Artifact 3)",
         past: "Broadcast TV/radio news paired with SMS text chains for candidate updates and rapid civic organizing.",
-        present:
-          "Social media livestreams, interactive candidate feeds, viral political videos, and digital fact-checking initiatives.",
+        present: "Social media livestreams, interactive candidate feeds, viral political videos, and digital fact-checking initiatives.",
+        future: "Independently audited personal civic AI platforms, holographic town halls, and real-time blockchain policy verification.",
       },
       {
-        aspect: "Environmental Campaigns & Information",
+        aspect: "Environmental Campaigns & Information (Artifact 4)",
         past: "Traditional broadcast TV announcements, radio news segments, print newspapers, and school drives.",
-        present:
-          "Interactive social media infographics, digital video advocacy, and online environmental petitions.",
+        present: "Interactive social media infographics, digital video advocacy, and online environmental petitions.",
+        future: "Smart IoT sensor networks, automated AI flood forecasting, and real-time community-driven pollution tracking apps.",
       },
       {
-        aspect: "Faith & Spiritual Connection",
+        aspect: "Faith & Spiritual Connection (Artifact 6)",
         past: "Forwarded SMS prayer chains on keypad phones combined with broadcast TV and radio sermons.",
-        present:
-          "Livestreamed masses via Facebook/Zoom, online prayer groups, and short-form digital faith reflections.",
+        present: "Livestreamed masses via Facebook/Zoom, online prayer groups, and short-form digital faith reflections.",
+        future: "Holographic spatial cathedrals, AI spiritual guidance assistants, and multi-lingual mixed-reality religious services.",
+      },
+      {
+        aspect: "Digital Economy & Infrastructure (Artifact 5)",
+        past: "Cash-based retail transactions and basic dial-up or early broadband shared through public internet hubs.",
+        present: "Mobile digital wallets, QR code cashless payments, and widespread personal high-speed home fiber.",
+        future: "Fully integrated cashless micro-economies, decentralized digital labor marketplaces, and AI-optimized community networks.",
       },
     ],
     sources: [
@@ -1100,8 +1143,8 @@ export const galleries: Gallery[] = [
       },
       {
         citation:
-          "Digital Information, Social Media, & Civic Literacy Reports (2016–2026).",
-        note: "Studies on smartphone penetration, social media political livestreams, online fact-checking mechanisms, and digital parish practices.",
+          "Digital Information, Social Media, & Civic Literacy Reports (2016–2026+).",
+        note: "Studies on smartphone penetration, social media political livestreams, online fact-checking mechanisms, digital parish practices, and future spatial communication systems.",
       },
     ],
   },
