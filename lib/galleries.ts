@@ -213,7 +213,7 @@ export const galleries: Gallery[] = [
         title: "Digital Climate Action & Social Media",
         subtitle: "Advocacy sa Digital at Social Media",
         date: "c. 2016–2026",
-        image: "/images/sustainability-influencers.jpeg",
+        image: "/images/Sustainability-influencers.jpeg",
         alt: "A smartphone screen displaying a viral video campaign about climate change and sustainable living practices",
         description:
           "Environmental advocacy expanded beyond traditional TV broadcasts into digital spaces. High-definition web documentaries, YouTube educational channels, and short-form social media content now drive global conversations around climate change, sustainability, and eco-friendly lifestyles.",

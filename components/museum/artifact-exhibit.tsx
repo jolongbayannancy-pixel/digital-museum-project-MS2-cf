@@ -101,12 +101,12 @@ export function ArtifactExhibit({
         isHovered ? "border-gold/50 shadow-[0_15px_40px_rgba(0,0,0,0.3)]" : ""
       )}>
         <div>
-          <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between sm:gap-4">
             <p className="text-[0.65rem] font-semibold uppercase tracking-[0.3em] text-gold">
               Exhibit {index + 1} · {activeArtifact.date}
             </p>
             {sequence.length > 1 && (
-              <div className="flex items-center gap-1 bg-background/80 p-1 border border-border shadow-inner" role="group" aria-label="Era selection controls">
+              <div className="flex items-center gap-1 bg-background/80 p-1 border border-border shadow-inner self-start sm:self-auto" role="group" aria-label="Era selection controls">
                 {sequence.map((_, i) => {
                   const label = eraLabels[i] || `Era ${i + 1}`
                   return (
